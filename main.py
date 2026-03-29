@@ -24,6 +24,13 @@ def init_db():
 
     cursor = conn.cursor()
 
+    cursor.execute('''CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT UNIQUE,
+            email TEXT UNIQUE,
+            password TEXT
+        )''')
+
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS doctors_login (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -52,12 +59,7 @@ def init_db():
     email TEXT
 )''')
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS users (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        username TEXT UNIQUE,
-        email TEXT UNIQUE,
-        password TEXT
-    )''')
+
 
 
 
