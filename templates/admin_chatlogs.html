@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🤖 Chatbot Logs - Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap & DataTables CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.bootstrap5.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #f4f7f9;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h3 {
+            color: #333;
+        }
+        table th, table td {
+            vertical-align: middle;
+            text-align: center;
+        }
+        .btn-secondary {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h3 class="text-center mb-4">📜 Chatbot Message Logs</h3>
+    <div class="table-responsive">
+        <table id="chatbotTable" class="table table-bordered table-striped table-hover">
+            <thead class="table-dark sticky-top">
+                <tr>
+                    <th>👤 User</th>
+                    <th>💬 Message</th>
+                    <th>🤖 Bot Reply</th>
+                    <th>🕒 Timestamp</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for username, message, reply, timestamp in logs %}
+                <tr>
+                    <td>{{ username or 'Guest' }}</td>
+                    <td>{{ message }}</td>
+                    <td>{{ reply }}</td>
+                    <td>{{ timestamp }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-center">
+        <a href="/dashboard_admin" class="btn btn-secondary">🔙 Back to Dashboard</a>
+    </div>
+</div>
+
+<!-- jQuery + DataTables Scripts -->
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.print.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#chatbotTable').DataTable({
+            dom: 'Bfrtip',
+            buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+            pageLength: 10
+        });
+    });
+</script>
+
+</body>
+</html>

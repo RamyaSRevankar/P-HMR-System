@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor-User Chat</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #chat-box { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll; }
+        .msg { margin: 5px 0; padding: 5px; border-radius: 5px; }
+        .user { background: #d1ffd6; text-align: left; }
+        .doctor { background: #d6e0ff; text-align: right; }
+    </style>
+</head>
+<body>
+    <h2>Doctor-User Chat</h2>
+
+    <div id="chat-box"></div>
+
+    <br>
+    <input type="text" id="sender" placeholder="Your name">
+    <input type="text" id="receiver" placeholder="Receiver name">
+    <input type="text" id="message" placeholder="Type a message">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        function loadMessages() {
+            $.get("/get_messages", function(data) {
+                $("#chat-box").empty();
+                data.forEach(msg => {
+                    let cssClass = msg.sender.toLowerCase() === "doctor" ? "doctor" : "user";
+                    $("#chat-box").append(
+                        `<div class='msg ${cssClass}'><b>${msg.sender}:</b> ${msg.message} <br><small>${msg.timestamp}</small></div>`
+                    );
+                });
+                $("#chat-box").scrollTop($("#chat-box")[0].scrollHeight);
+            });
+        }
+
+        function sendMessage() {
+            let sender = $("#sender").val();
+            let receiver = $("#receiver").val();
+            let message = $("#message").val();
+
+            $.ajax({
+                url: "/send_message",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({ sender, receiver, message }),
+                success: function() {
+                    $("#message").val("");
+                    loadMessages();
+                }
+            });
+        }
+
+        setInterval(loadMessages, 2000); // Auto-refresh every 2 sec
+        loadMessages();
+    </script>
+</body>
+</html>

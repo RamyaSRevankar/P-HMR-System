@@ -1,0 +1,1201 @@
+Name,Specialization,Disease,Email
+Dr. Sujay Kapoor,Urologist,Coronary artery disease,sujay.kapoor@example.com
+Dr. Rahul Rao,Oncologist,GERD,rahul.rao@example.com
+Dr. Rahul Naik,Dermatologist,Diabetes,rahul.naik@example.com
+Dr. Ankit Jain,Gynecologist,Typhoid,ankit.jain@example.com
+Dr. Divya Patel,Endocrinologist,Gastroenteritis,divya.patel@example.com
+Dr. Rahul Joshi,Gastroenterologist,Gastroenteritis,rahul.joshi@example.com
+Dr. Neha Kulkarni,Urologist,Epilepsy,neha.kulkarni@example.com
+Dr. Rahul Bhat,Pediatrician,Common Cold,rahul.bhat@example.com
+Dr. Sameer Rao,Orthopedic,Jaundice,sameer.rao@example.com
+Dr. Amit Bhatt,General Physician,Migraine,amit.bhatt@example.com
+Dr. Meera Naik,Orthopedic,Cancer,meera.naik@example.com
+Dr. Sameer Verma,Cardiologist,Fungal infection,sameer.verma@example.com
+Dr. Rahul Iyer,Gynecologist,Dimorphic hemmorhoids(piles),rahul.iyer@example.com
+Dr. Raj Bhatt,Endocrinologist,Cancer,raj.bhatt@example.com
+Dr. Sameer Rao,Gastroenterologist,Jaundice,sameer.rao@example.com
+Dr. Kiran Kulkarni,Psychiatrist,Hypertension,kiran.kulkarni@example.com
+Dr. Sagar Rao,Gynecologist,Epilepsy,sagar.rao@example.com
+Dr. Arjun Mehta,Dermatologist,Gastroenteritis,arjun.mehta@example.com
+Dr. Ankit Mehta,Pulmonologist,Thyroid disorders,ankit.mehta@example.com
+Dr. Divya Kumar,Pediatrician,Dimorphic hemmorhoids(piles),divya.kumar@example.com
+Dr. Nisha Bhatt,Gastroenterologist,Arthritis,nisha.bhatt@example.com
+Dr. Kiran Bhat,Oncologist,Thyroid disorders,kiran.bhat@example.com
+Dr. Priya Verma,Orthopedic,Anxiety,priya.verma@example.com
+Dr. Arjun Iyer,Dermatologist,GERD,arjun.iyer@example.com
+Dr. Neha Iyer,Oncologist,Dimorphic hemmorhoids(piles),neha.iyer@example.com
+Dr. Kiran Singh,Psychiatrist,Chickenpox,kiran.singh@example.com
+Dr. Ravi Iyer,General Physician,Hypertension,ravi.iyer@example.com
+Dr. Varun Menon,Psychiatrist,Psoriasis,varun.menon@example.com
+Dr. Rahul Das,Psychiatrist,Coronary artery disease,rahul.das@example.com
+Dr. Mahesh Das,Endocrinologist,Hepatitis B,mahesh.das@example.com
+Dr. Ankit Naik,General Physician,Psoriasis,ankit.naik@example.com
+Dr. Kiran Rao,Dermatologist,Jaundice,kiran.rao@example.com
+Dr. Mahesh Shah,Endocrinologist,Heart attack,mahesh.shah@example.com
+Dr. Varun Bhatt,General Physician,Urinary tract infection,varun.bhatt@example.com
+Dr. Meera Iyer,Pulmonologist,Deafness,meera.iyer@example.com
+Dr. Komal Shetty,Pediatrician,Migraine,komal.shetty@example.com
+Dr. Sneha Reddy,Pulmonologist,Dimorphic hemmorhoids(piles),sneha.reddy@example.com
+Dr. Ravi Reddy,Dermatologist,Diabetes,ravi.reddy@example.com
+Dr. Rahul Kumar,Endocrinologist,Migraine,rahul.kumar@example.com
+Dr. Sameer Kapoor,Gastroenterologist,Psoriasis,sameer.kapoor@example.com
+Dr. Varun Shetty,Gynecologist,Sinusitis,varun.shetty@example.com
+Dr. Raj Rao,Orthopedic,Diabetes,raj.rao@example.com
+Dr. Sagar Shetty,Orthopedic,Arthritis,sagar.shetty@example.com
+Dr. Meera Bhatt,Dermatologist,GERD,meera.bhatt@example.com
+Dr. Rahul Tyagi,Dermatologist,Diabetes,rahul.tyagi@example.com
+Dr. Pooja Menon,Dermatologist,Typhoid,pooja.menon@example.com
+Dr. Sneha Rao,Dermatologist,Epilepsy,sneha.rao@example.com
+Dr. Sagar Jain,Psychiatrist,Psoriasis,sagar.jain@example.com
+Dr. Ravi Rao,Gastroenterologist,Jaundice,ravi.rao@example.com
+Dr. Arjun Singh,Dermatologist,Asthma,arjun.singh@example.com
+Dr. Priya Bhatt,Cardiologist,Thyroid disorders,priya.bhatt@example.com
+Dr. Ankit Rao,Pediatrician,Cancer,ankit.rao@example.com
+Dr. Meera Shetty,Dermatologist,Typhoid,meera.shetty@example.com
+Dr. Rahul Kulkarni,Psychiatrist,Arthritis,rahul.kulkarni@example.com
+Dr. Amit Bose,Endocrinologist,Arthritis,amit.bose@example.com
+Dr. Nisha Tyagi,Cardiologist,Sinusitis,nisha.tyagi@example.com
+Dr. Varun Khan,ENT Specialist,GERD,varun.khan@example.com
+Dr. Varun Shah,Neurologist,Deafness,varun.shah@example.com
+Dr. Raj Patel,Orthopedic,Epilepsy,raj.patel@example.com
+Dr. Ishita Kapoor,Cardiologist,Cancer,ishita.kapoor@example.com
+Dr. Sneha Rao,Endocrinologist,Hepatitis B,sneha.rao@example.com
+Dr. Arjun Bhat,Pulmonologist,PCOS,arjun.bhat@example.com
+Dr. Sagar Mehta,Oncologist,Jaundice,sagar.mehta@example.com
+Dr. Amit Kulkarni,Gastroenterologist,Fungal infection,amit.kulkarni@example.com
+Dr. Ankit Rao,Neurologist,Sinusitis,ankit.rao@example.com
+Dr. Pooja Mehta,Orthopedic,Chickenpox,pooja.mehta@example.com
+Dr. Ritu Singh,Dermatologist,Psoriasis,ritu.singh@example.com
+Dr. Ishita Bhatt,Gynecologist,Coronary artery disease,ishita.bhatt@example.com
+Dr. Rahul Khan,Oncologist,Heart attack,rahul.khan@example.com
+Dr. Meera Patel,Endocrinologist,Chickenpox,meera.patel@example.com
+Dr. Raj Bhat,Gynecologist,PCOS,raj.bhat@example.com
+Dr. Divya Bhat,Gynecologist,Jaundice,divya.bhat@example.com
+Dr. Divya Rao,Oncologist,Diabetes,divya.rao@example.com
+Dr. Varun Iyer,Endocrinologist,GERD,varun.iyer@example.com
+Dr. Sagar Patel,Gynecologist,Asthma,sagar.patel@example.com
+Dr. Meera Tyagi,Urologist,Urinary tract infection,meera.tyagi@example.com
+Dr. Kiran Kumar,Oncologist,Drug Reaction,kiran.kumar@example.com
+Dr. Raj Shetty,Psychiatrist,Heart attack,raj.shetty@example.com
+Dr. Priya Tyagi,Gastroenterologist,Epilepsy,priya.tyagi@example.com
+Dr. Rahul Das,Gastroenterologist,Coronary artery disease,rahul.das@example.com
+Dr. Neha Das,Cardiologist,Arthritis,neha.das@example.com
+Dr. Arjun Kapoor,ENT Specialist,Migraine,arjun.kapoor@example.com
+Dr. Sameer Shetty,Gastroenterologist,Fungal infection,sameer.shetty@example.com
+Dr. Amit Menon,Gastroenterologist,Arthritis,amit.menon@example.com
+Dr. Rahul Rao,Cardiologist,Psoriasis,rahul.rao@example.com
+Dr. Arjun Verma,Gastroenterologist,Arthritis,arjun.verma@example.com
+Dr. Ritu Kumar,ENT Specialist,Hepatitis B,ritu.kumar@example.com
+Dr. Meera Khan,Oncologist,Asthma,meera.khan@example.com
+Dr. Arjun Rao,Pulmonologist,Thyroid disorders,arjun.rao@example.com
+Dr. Divya Das,Orthopedic,Psoriasis,divya.das@example.com
+Dr. Mahesh Rao,Endocrinologist,Typhoid,mahesh.rao@example.com
+Dr. Raj Das,Psychiatrist,Thyroid disorders,raj.das@example.com
+Dr. Raj Patel,General Physician,Cancer,raj.patel@example.com
+Dr. Mahesh Shetty,Neurologist,Coronary artery disease,mahesh.shetty@example.com
+Dr. Sneha Patel,Oncologist,Epilepsy,sneha.patel@example.com
+Dr. Ritu Kapoor,Gastroenterologist,Psoriasis,ritu.kapoor@example.com
+Dr. Ishita Reddy,ENT Specialist,Anxiety,ishita.reddy@example.com
+Dr. Amit Joshi,Neurologist,Migraine,amit.joshi@example.com
+Dr. Sneha Menon,Gastroenterologist,Sinusitis,sneha.menon@example.com
+Dr. Nisha Rao,Pediatrician,Hepatitis B,nisha.rao@example.com
+Dr. Ravi Bhatt,Psychiatrist,Deafness,ravi.bhatt@example.com
+Dr. Varun Patel,Pulmonologist,Deafness,varun.patel@example.com
+Dr. Ishita Kapoor,Gynecologist,Psoriasis,ishita.kapoor@example.com
+Dr. Sneha Reddy,Pulmonologist,Anxiety,sneha.reddy@example.com
+Dr. Arjun Kulkarni,Endocrinologist,Epilepsy,arjun.kulkarni@example.com
+Dr. Varun Kulkarni,Cardiologist,Hypertension,varun.kulkarni@example.com
+Dr. Sagar Shetty,Neurologist,Arthritis,sagar.shetty@example.com
+Dr. Ravi Kapoor,Gynecologist,Anxiety,ravi.kapoor@example.com
+Dr. Ritu Rao,Dermatologist,Asthma,ritu.rao@example.com
+Dr. Pooja Rao,Endocrinologist,Coronary artery disease,pooja.rao@example.com
+Dr. Neha Menon,Endocrinologist,Sinusitis,neha.menon@example.com
+Dr. Pooja Tyagi,Neurologist,Asthma,pooja.tyagi@example.com
+Dr. Ritu Bhatt,Psychiatrist,Deafness,ritu.bhatt@example.com
+Dr. Sneha Joshi,ENT Specialist,Common Cold,sneha.joshi@example.com
+Dr. Sameer Naik,ENT Specialist,Anxiety,sameer.naik@example.com
+Dr. Sameer Reddy,Oncologist,Jaundice,sameer.reddy@example.com
+Dr. Ravi Menon,Urologist,Urinary tract infection,ravi.menon@example.com
+Dr. Divya Kumar,ENT Specialist,Cancer,divya.kumar@example.com
+Dr. Rahul Tyagi,Gynecologist,Chickenpox,rahul.tyagi@example.com
+Dr. Nisha Rao,Pulmonologist,Migraine,nisha.rao@example.com
+Dr. Ishita Kumar,ENT Specialist,PCOS,ishita.kumar@example.com
+Dr. Priya Kumar,General Physician,Common Cold,priya.kumar@example.com
+Dr. Sagar Rao,Gynecologist,PCOS,sagar.rao@example.com
+Dr. Raj Kapoor,Cardiologist,Psoriasis,raj.kapoor@example.com
+Dr. Nisha Iyer,Endocrinologist,Hepatitis B,nisha.iyer@example.com
+Dr. Priya Kumar,Dermatologist,Hepatitis B,priya.kumar@example.com
+Dr. Rahul Kumar,Orthopedic,Arthritis,rahul.kumar@example.com
+Dr. Nisha Khan,Endocrinologist,Thyroid disorders,nisha.khan@example.com
+Dr. Sagar Joshi,Oncologist,Sinusitis,sagar.joshi@example.com
+Dr. Meera Naik,Urologist,Migraine,meera.naik@example.com
+Dr. Ankit Patel,Dermatologist,Sinusitis,ankit.patel@example.com
+Dr. Asha Naik,Orthopedic,Psoriasis,asha.naik@example.com
+Dr. Amit Patel,Urologist,Arthritis,amit.patel@example.com
+Dr. Rahul Das,ENT Specialist,Coronary artery disease,rahul.das@example.com
+Dr. Asha Kulkarni,Cardiologist,Asthma,asha.kulkarni@example.com
+Dr. Varun Khan,Urologist,Psoriasis,varun.khan@example.com
+Dr. Varun Jain,Gastroenterologist,GERD,varun.jain@example.com
+Dr. Rahul Joshi,Pediatrician,Jaundice,rahul.joshi@example.com
+Dr. Arjun Das,Dermatologist,Deafness,arjun.das@example.com
+Dr. Ravi Singh,Oncologist,Anxiety,ravi.singh@example.com
+Dr. Ritu Iyer,Cardiologist,Sinusitis,ritu.iyer@example.com
+Dr. Arjun Mehta,Orthopedic,Hepatitis B,arjun.mehta@example.com
+Dr. Priya Singh,General Physician,Anxiety,priya.singh@example.com
+Dr. Neha Verma,Orthopedic,Jaundice,neha.verma@example.com
+Dr. Arjun Iyer,Psychiatrist,Coronary artery disease,arjun.iyer@example.com
+Dr. Rahul Mehta,General Physician,Epilepsy,rahul.mehta@example.com
+Dr. Mahesh Jain,Pediatrician,Heart attack,mahesh.jain@example.com
+Dr. Priya Bhatt,Urologist,Psoriasis,priya.bhatt@example.com
+Dr. Raj Rao,General Physician,Heart attack,raj.rao@example.com
+Dr. Ankit Jain,ENT Specialist,Heart attack,ankit.jain@example.com
+Dr. Arjun Rao,Oncologist,Diabetes,arjun.rao@example.com
+Dr. Pooja Shah,Pulmonologist,Allergy,pooja.shah@example.com
+Dr. Amit Iyer,General Physician,Urinary tract infection,amit.iyer@example.com
+Dr. Nisha Patel,ENT Specialist,GERD,nisha.patel@example.com
+Dr. Neha Bhat,Gastroenterologist,Asthma,neha.bhat@example.com
+Dr. Komal Mehta,General Physician,Sinusitis,komal.mehta@example.com
+Dr. Neha Naik,Cardiologist,Hypertension,neha.naik@example.com
+Dr. Sagar Kapoor,Gastroenterologist,Common Cold,sagar.kapoor@example.com
+Dr. Neha Shah,Cardiologist,Epilepsy,neha.shah@example.com
+Dr. Ankit Kapoor,Psychiatrist,Coronary artery disease,ankit.kapoor@example.com
+Dr. Kiran Shetty,Urologist,Epilepsy,kiran.shetty@example.com
+Dr. Mahesh Das,Endocrinologist,Diabetes,mahesh.das@example.com
+Dr. Pooja Shetty,Endocrinologist,Migraine,pooja.shetty@example.com
+Dr. Ankit Kumar,Psychiatrist,Allergy,ankit.kumar@example.com
+Dr. Sameer Joshi,ENT Specialist,Cancer,sameer.joshi@example.com
+Dr. Neha Iyer,Urologist,Arthritis,neha.iyer@example.com
+Dr. Sagar Joshi,Pediatrician,Cancer,sagar.joshi@example.com
+Dr. Varun Verma,ENT Specialist,Psoriasis,varun.verma@example.com
+Dr. Arjun Verma,Dermatologist,Epilepsy,arjun.verma@example.com
+Dr. Amit Rao,Pediatrician,Hypertension,amit.rao@example.com
+Dr. Pooja Patel,Urologist,PCOS,pooja.patel@example.com
+Dr. Nisha Jain,Dermatologist,Epilepsy,nisha.jain@example.com
+Dr. Nisha Shetty,Gynecologist,Hepatitis B,nisha.shetty@example.com
+Dr. Sameer Rao,Psychiatrist,Deafness,sameer.rao@example.com
+Dr. Amit Joshi,Neurologist,Hypertension,amit.joshi@example.com
+Dr. Ravi Kumar,Oncologist,Deafness,ravi.kumar@example.com
+Dr. Rahul Menon,Psychiatrist,Chickenpox,rahul.menon@example.com
+Dr. Arjun Joshi,Psychiatrist,Common Cold,arjun.joshi@example.com
+Dr. Amit Shah,Cardiologist,Arthritis,amit.shah@example.com
+Dr. Ritu Menon,ENT Specialist,Chickenpox,ritu.menon@example.com
+Dr. Neha Joshi,Pediatrician,Common Cold,neha.joshi@example.com
+Dr. Arjun Bhat,Gastroenterologist,Common Cold,arjun.bhat@example.com
+Dr. Amit Kumar,General Physician,Psoriasis,amit.kumar@example.com
+Dr. Amit Rao,Dermatologist,Asthma,amit.rao@example.com
+Dr. Varun Joshi,General Physician,Deafness,varun.joshi@example.com
+Dr. Ankit Tyagi,Dermatologist,Migraine,ankit.tyagi@example.com
+Dr. Sagar Singh,Orthopedic,Urinary tract infection,sagar.singh@example.com
+Dr. Mahesh Rao,Cardiologist,Typhoid,mahesh.rao@example.com
+Dr. Varun Verma,General Physician,Heart attack,varun.verma@example.com
+Dr. Sujay Bose,General Physician,Coronary artery disease,sujay.bose@example.com
+Dr. Raj Verma,Dermatologist,Fungal infection,raj.verma@example.com
+Dr. Ishita Das,Psychiatrist,Psoriasis,ishita.das@example.com
+Dr. Ritu Reddy,Dermatologist,Chickenpox,ritu.reddy@example.com
+Dr. Priya Rao,Cardiologist,Asthma,priya.rao@example.com
+Dr. Neha Das,Pulmonologist,PCOS,neha.das@example.com
+Dr. Ravi Shah,Gastroenterologist,Common Cold,ravi.shah@example.com
+Dr. Ravi Kumar,Pulmonologist,Anxiety,ravi.kumar@example.com
+Dr. Pooja Bhat,Cardiologist,PCOS,pooja.bhat@example.com
+Dr. Priya Khan,Oncologist,Hypertension,priya.khan@example.com
+Dr. Neha Patel,Psychiatrist,Epilepsy,neha.patel@example.com
+Dr. Sneha Iyer,Orthopedic,Urinary tract infection,sneha.iyer@example.com
+Dr. Ritu Jain,Gastroenterologist,Common Cold,ritu.jain@example.com
+Dr. Arjun Reddy,Psychiatrist,Deafness,arjun.reddy@example.com
+Dr. Nisha Joshi,Pulmonologist,Common Cold,nisha.joshi@example.com
+Dr. Ankit Das,Psychiatrist,Heart attack,ankit.das@example.com
+Dr. Divya Das,Gynecologist,Thyroid disorders,divya.das@example.com
+Dr. Ishita Kulkarni,Psychiatrist,Hepatitis B,ishita.kulkarni@example.com
+Dr. Komal Verma,Orthopedic,Asthma,komal.verma@example.com
+Dr. Sneha Das,Gynecologist,Psoriasis,sneha.das@example.com
+Dr. Varun Khan,Cardiologist,Thyroid disorders,varun.khan@example.com
+Dr. Nisha Rao,General Physician,Migraine,nisha.rao@example.com
+Dr. Raj Kulkarni,Endocrinologist,Asthma,raj.kulkarni@example.com
+Dr. Kiran Rao,Dermatologist,Epilepsy,kiran.rao@example.com
+Dr. Varun Singh,Orthopedic,Chickenpox,varun.singh@example.com
+Dr. Ankit Iyer,Gastroenterologist,Coronary artery disease,ankit.iyer@example.com
+Dr. Raj Shah,Endocrinologist,Urinary tract infection,raj.shah@example.com
+Dr. Ritu Joshi,Gynecologist,Chickenpox,ritu.joshi@example.com
+Dr. Sujay Verma,ENT Specialist,Chickenpox,sujay.verma@example.com
+Dr. Meera Jain,Psychiatrist,Chickenpox,meera.jain@example.com
+Dr. Arjun Shah,Urologist,Sinusitis,arjun.shah@example.com
+Dr. Kiran Bhat,General Physician,Jaundice,kiran.bhat@example.com
+Dr. Ankit Reddy,Neurologist,Psoriasis,ankit.reddy@example.com
+Dr. Meera Verma,Neurologist,Jaundice,meera.verma@example.com
+Dr. Divya Bose,Orthopedic,Cancer,divya.bose@example.com
+Dr. Arjun Menon,General Physician,Diabetes,arjun.menon@example.com
+Dr. Sameer Verma,Dermatologist,Diabetes,sameer.verma@example.com
+Dr. Meera Joshi,ENT Specialist,Common Cold,meera.joshi@example.com
+Dr. Ankit Tyagi,Oncologist,Arthritis,ankit.tyagi@example.com
+Dr. Sameer Shetty,Cardiologist,PCOS,sameer.shetty@example.com
+Dr. Sameer Shah,Psychiatrist,Arthritis,sameer.shah@example.com
+Dr. Ishita Mehta,Endocrinologist,Migraine,ishita.mehta@example.com
+Dr. Sameer Singh,Psychiatrist,Sinusitis,sameer.singh@example.com
+Dr. Divya Singh,Gastroenterologist,Anxiety,divya.singh@example.com
+Dr. Varun Reddy,Endocrinologist,Chickenpox,varun.reddy@example.com
+Dr. Sneha Menon,Cardiologist,Common Cold,sneha.menon@example.com
+Dr. Arjun Shetty,Dermatologist,Fungal infection,arjun.shetty@example.com
+Dr. Priya Verma,Cardiologist,Migraine,priya.verma@example.com
+Dr. Arjun Bhatt,General Physician,Deafness,arjun.bhatt@example.com
+Dr. Raj Kumar,Endocrinologist,Diabetes,raj.kumar@example.com
+Dr. Amit Kapoor,Pediatrician,Cancer,amit.kapoor@example.com
+Dr. Sagar Khan,Oncologist,Psoriasis,sagar.khan@example.com
+Dr. Neha Naik,Gynecologist,Hypertension,neha.naik@example.com
+Dr. Nisha Khan,Endocrinologist,Anxiety,nisha.khan@example.com
+Dr. Priya Reddy,Pediatrician,Deafness,priya.reddy@example.com
+Dr. Meera Verma,ENT Specialist,Common Cold,meera.verma@example.com
+Dr. Priya Kapoor,ENT Specialist,Heart attack,priya.kapoor@example.com
+Dr. Divya Reddy,Pulmonologist,Cancer,divya.reddy@example.com
+Dr. Komal Shetty,Oncologist,Urinary tract infection,komal.shetty@example.com
+Dr. Meera Bose,General Physician,Anxiety,meera.bose@example.com
+Dr. Kiran Rao,Orthopedic,Hepatitis B,kiran.rao@example.com
+Dr. Varun Rao,Cardiologist,Anxiety,varun.rao@example.com
+Dr. Rahul Menon,ENT Specialist,PCOS,rahul.menon@example.com
+Dr. Raj Reddy,Pediatrician,GERD,raj.reddy@example.com
+Dr. Ishita Patel,Endocrinologist,Thyroid disorders,ishita.patel@example.com
+Dr. Amit Menon,Cardiologist,Urinary tract infection,amit.menon@example.com
+Dr. Varun Shetty,Endocrinologist,Urinary tract infection,varun.shetty@example.com
+Dr. Divya Naik,Cardiologist,Migraine,divya.naik@example.com
+Dr. Kiran Menon,Psychiatrist,Hepatitis B,kiran.menon@example.com
+Dr. Varun Rao,Endocrinologist,Urinary tract infection,varun.rao@example.com
+Dr. Sneha Rao,Gynecologist,Urinary tract infection,sneha.rao@example.com
+Dr. Mahesh Kulkarni,Orthopedic,Fungal infection,mahesh.kulkarni@example.com
+Dr. Ishita Kapoor,Psychiatrist,Migraine,ishita.kapoor@example.com
+Dr. Nisha Shetty,Gastroenterologist,Fungal infection,nisha.shetty@example.com
+Dr. Varun Singh,Oncologist,Heart attack,varun.singh@example.com
+Dr. Pooja Kumar,Oncologist,Deafness,pooja.kumar@example.com
+Dr. Divya Khan,Psychiatrist,Deafness,divya.khan@example.com
+Dr. Varun Das,Pulmonologist,Psoriasis,varun.das@example.com
+Dr. Sneha Khan,Pediatrician,Hypertension,sneha.khan@example.com
+Dr. Meera Kapoor,Endocrinologist,Anxiety,meera.kapoor@example.com
+Dr. Sameer Patel,Pediatrician,Deafness,sameer.patel@example.com
+Dr. Asha Patel,Gynecologist,Jaundice,asha.patel@example.com
+Dr. Divya Kulkarni,Oncologist,Deafness,divya.kulkarni@example.com
+Dr. Priya Bhat,Orthopedic,Cancer,priya.bhat@example.com
+Dr. Ravi Jain,Gynecologist,Deafness,ravi.jain@example.com
+Dr. Komal Verma,Neurologist,Coronary artery disease,komal.verma@example.com
+Dr. Varun Kapoor,Dermatologist,Chickenpox,varun.kapoor@example.com
+Dr. Sameer Kapoor,General Physician,Cancer,sameer.kapoor@example.com
+Dr. Sagar Bose,Psychiatrist,Coronary artery disease,sagar.bose@example.com
+Dr. Varun Bose,Urologist,Diabetes,varun.bose@example.com
+Dr. Meera Bose,ENT Specialist,Jaundice,meera.bose@example.com
+Dr. Rahul Joshi,Gastroenterologist,Fungal infection,rahul.joshi@example.com
+Dr. Asha Kulkarni,Oncologist,Anxiety,asha.kulkarni@example.com
+Dr. Arjun Rao,Pulmonologist,Coronary artery disease,arjun.rao@example.com
+Dr. Varun Menon,Orthopedic,Anxiety,varun.menon@example.com
+Dr. Divya Bose,ENT Specialist,Thyroid disorders,divya.bose@example.com
+Dr. Kiran Kulkarni,ENT Specialist,Arthritis,kiran.kulkarni@example.com
+Dr. Pooja Kumar,Endocrinologist,Hepatitis B,pooja.kumar@example.com
+Dr. Varun Mehta,Pulmonologist,Jaundice,varun.mehta@example.com
+Dr. Ravi Singh,Urologist,Fungal infection,ravi.singh@example.com
+Dr. Amit Bhat,Gastroenterologist,Diabetes,amit.bhat@example.com
+Dr. Sameer Jain,Pediatrician,Thyroid disorders,sameer.jain@example.com
+Dr. Sujay Naik,Urologist,Asthma,sujay.naik@example.com
+Dr. Pooja Khan,Neurologist,Epilepsy,pooja.khan@example.com
+Dr. Meera Kumar,Gynecologist,Migraine,meera.kumar@example.com
+Dr. Divya Joshi,Pulmonologist,GERD,divya.joshi@example.com
+Dr. Varun Jain,Pulmonologist,Asthma,varun.jain@example.com
+Dr. Kiran Das,Endocrinologist,Fungal infection,kiran.das@example.com
+Dr. Neha Bose,Pulmonologist,Anxiety,neha.bose@example.com
+Dr. Arjun Shah,Pulmonologist,Asthma,arjun.shah@example.com
+Dr. Neha Mehta,Cardiologist,Coronary artery disease,neha.mehta@example.com
+Dr. Kiran Kumar,Neurologist,Heart attack,kiran.kumar@example.com
+Dr. Arjun Bose,Psychiatrist,PCOS,arjun.bose@example.com
+Dr. Ravi Naik,General Physician,Hepatitis B,ravi.naik@example.com
+Dr. Asha Bhat,Neurologist,Deafness,asha.bhat@example.com
+Dr. Komal Patel,Neurologist,Migraine,komal.patel@example.com
+Dr. Kiran Khan,Neurologist,Epilepsy,kiran.khan@example.com
+Dr. Ishita Kulkarni,Urologist,GERD,ishita.kulkarni@example.com
+Dr. Sagar Shah,Dermatologist,Migraine,sagar.shah@example.com
+Dr. Pooja Shah,Neurologist,GERD,pooja.shah@example.com
+Dr. Mahesh Bose,Endocrinologist,Diabetes,mahesh.bose@example.com
+Dr. Kiran Kapoor,Gynecologist,Chickenpox,kiran.kapoor@example.com
+Dr. Arjun Kumar,Urologist,Thyroid disorders,arjun.kumar@example.com
+Dr. Pooja Bhatt,Dermatologist,Anxiety,pooja.bhatt@example.com
+Dr. Divya Mehta,Gynecologist,Fungal infection,divya.mehta@example.com
+Dr. Priya Kapoor,Orthopedic,Epilepsy,priya.kapoor@example.com
+Dr. Priya Patel,Urologist,Deafness,priya.patel@example.com
+Dr. Asha Kulkarni,Urologist,Chickenpox,asha.kulkarni@example.com
+Dr. Pooja Bhatt,ENT Specialist,Asthma,pooja.bhatt@example.com
+Dr. Nisha Jain,Psychiatrist,Common Cold,nisha.jain@example.com
+Dr. Divya Verma,Orthopedic,Common Cold,divya.verma@example.com
+Dr. Sneha Kapoor,Oncologist,Sinusitis,sneha.kapoor@example.com
+Dr. Sneha Singh,Oncologist,Migraine,sneha.singh@example.com
+Dr. Sneha Khan,General Physician,Jaundice,sneha.khan@example.com
+Dr. Neha Jain,Gynecologist,Hypertension,neha.jain@example.com
+Dr. Sneha Rao,Psychiatrist,Diabetes,sneha.rao@example.com
+Dr. Kiran Singh,Pulmonologist,Typhoid,kiran.singh@example.com
+Dr. Ravi Verma,Gastroenterologist,Epilepsy,ravi.verma@example.com
+Dr. Nisha Mehta,Dermatologist,Arthritis,nisha.mehta@example.com
+Dr. Ritu Singh,Urologist,Fungal infection,ritu.singh@example.com
+Dr. Komal Singh,ENT Specialist,Psoriasis,komal.singh@example.com
+Dr. Pooja Verma,Cardiologist,Thyroid disorders,pooja.verma@example.com
+Dr. Priya Khan,Oncologist,Diabetes,priya.khan@example.com
+Dr. Rahul Khan,General Physician,Chickenpox,rahul.khan@example.com
+Dr. Pooja Tyagi,Urologist,Common Cold,pooja.tyagi@example.com
+Dr. Kiran Menon,Endocrinologist,Coronary artery disease,kiran.menon@example.com
+Dr. Sneha Menon,Orthopedic,Sinusitis,sneha.menon@example.com
+Dr. Mahesh Joshi,Neurologist,Fungal infection,mahesh.joshi@example.com
+Dr. Asha Reddy,Gastroenterologist,Deafness,asha.reddy@example.com
+Dr. Kiran Kumar,Pulmonologist,Hepatitis B,kiran.kumar@example.com
+Dr. Meera Singh,ENT Specialist,Coronary artery disease,meera.singh@example.com
+Dr. Sameer Bhatt,Endocrinologist,Hepatitis B,sameer.bhatt@example.com
+Dr. Ravi Joshi,Orthopedic,Coronary artery disease,ravi.joshi@example.com
+Dr. Meera Singh,ENT Specialist,Anxiety,meera.singh@example.com
+Dr. Ishita Patel,Urologist,Hypertension,ishita.patel@example.com
+Dr. Rahul Bhatt,Urologist,Hypertension,rahul.bhatt@example.com
+Dr. Varun Kumar,Pediatrician,Heart attack,varun.kumar@example.com
+Dr. Sagar Kulkarni,Psychiatrist,Hepatitis B,sagar.kulkarni@example.com
+Dr. Priya Mehta,Cardiologist,Deafness,priya.mehta@example.com
+Dr. Neha Bose,Oncologist,Anxiety,neha.bose@example.com
+Dr. Sneha Rao,Cardiologist,Common Cold,sneha.rao@example.com
+Dr. Nisha Verma,Dermatologist,PCOS,nisha.verma@example.com
+Dr. Sujay Das,Oncologist,Common Cold,sujay.das@example.com
+Dr. Priya Iyer,General Physician,Coronary artery disease,priya.iyer@example.com
+Dr. Ritu Das,Pulmonologist,Typhoid,ritu.das@example.com
+Dr. Sujay Bhatt,Gynecologist,Sinusitis,sujay.bhatt@example.com
+Dr. Ravi Joshi,Oncologist,Typhoid,ravi.joshi@example.com
+Dr. Komal Reddy,General Physician,Thyroid disorders,komal.reddy@example.com
+Dr. Sagar Reddy,Pulmonologist,Arthritis,sagar.reddy@example.com
+Dr. Sneha Singh,Psychiatrist,Chickenpox,sneha.singh@example.com
+Dr. Varun Das,Pediatrician,Hypertension,varun.das@example.com
+Dr. Amit Kapoor,Gynecologist,Anxiety,amit.kapoor@example.com
+Dr. Arjun Kumar,Psychiatrist,PCOS,arjun.kumar@example.com
+Dr. Varun Joshi,Neurologist,Epilepsy,varun.joshi@example.com
+Dr. Ravi Mehta,Endocrinologist,Typhoid,ravi.mehta@example.com
+Dr. Pooja Singh,Endocrinologist,Hypertension,pooja.singh@example.com
+Dr. Pooja Menon,Psychiatrist,PCOS,pooja.menon@example.com
+Dr. Raj Shetty,Endocrinologist,Asthma,raj.shetty@example.com
+Dr. Ravi Joshi,Gynecologist,Deafness,ravi.joshi@example.com
+Dr. Sagar Bhatt,General Physician,Hepatitis B,sagar.bhatt@example.com
+Dr. Rahul Bose,Dermatologist,Thyroid disorders,rahul.bose@example.com
+Dr. Divya Bhatt,Neurologist,Urinary tract infection,divya.bhatt@example.com
+Dr. Priya Shah,Cardiologist,Arthritis,priya.shah@example.com
+Dr. Amit Naik,General Physician,Typhoid,amit.naik@example.com
+Dr. Mahesh Naik,Psychiatrist,Heart attack,mahesh.naik@example.com
+Dr. Neha Mehta,Neurologist,PCOS,neha.mehta@example.com
+Dr. Kiran Patel,Endocrinologist,Deafness,kiran.patel@example.com
+Dr. Arjun Kumar,Gastroenterologist,Anxiety,arjun.kumar@example.com
+Dr. Kiran Rao,Psychiatrist,Psoriasis,kiran.rao@example.com
+Dr. Mahesh Khan,Pulmonologist,Common Cold,mahesh.khan@example.com
+Dr. Meera Patel,Urologist,Common Cold,meera.patel@example.com
+Dr. Mahesh Shetty,Gastroenterologist,Epilepsy,mahesh.shetty@example.com
+Dr. Divya Rao,Gynecologist,Common Cold,divya.rao@example.com
+Dr. Arjun Kapoor,Gynecologist,Fungal infection,arjun.kapoor@example.com
+Dr. Neha Verma,Neurologist,Anxiety,neha.verma@example.com
+Dr. Ravi Jain,General Physician,Arthritis,ravi.jain@example.com
+Dr. Rahul Reddy,ENT Specialist,Hypertension,rahul.reddy@example.com
+Dr. Sneha Rao,Gynecologist,Typhoid,sneha.rao@example.com
+Dr. Arjun Bose,ENT Specialist,Hypertension,arjun.bose@example.com
+Dr. Kiran Joshi,Gynecologist,Diabetes,kiran.joshi@example.com
+Dr. Priya Bhatt,Cardiologist,Hypertension,priya.bhatt@example.com
+Dr. Asha Das,Psychiatrist,Migraine,asha.das@example.com
+Dr. Sujay Kapoor,Urologist,Deafness,sujay.kapoor@example.com
+Dr. Neha Khan,Cardiologist,Typhoid,neha.khan@example.com
+Dr. Pooja Mehta,Gynecologist,GERD,pooja.mehta@example.com
+Dr. Ravi Iyer,Endocrinologist,Asthma,ravi.iyer@example.com
+Dr. Rahul Jain,Pediatrician,Chickenpox,rahul.jain@example.com
+Dr. Meera Das,General Physician,Arthritis,meera.das@example.com
+Dr. Ankit Kulkarni,Cardiologist,Fungal infection,ankit.kulkarni@example.com
+Dr. Ishita Khan,Gastroenterologist,Epilepsy,ishita.khan@example.com
+Dr. Pooja Tyagi,Endocrinologist,Deafness,pooja.tyagi@example.com
+Dr. Sneha Das,Neurologist,Typhoid,sneha.das@example.com
+Dr. Divya Kapoor,Endocrinologist,Psoriasis,divya.kapoor@example.com
+Dr. Rahul Tyagi,Orthopedic,Hepatitis B,rahul.tyagi@example.com
+Dr. Amit Rao,General Physician,Coronary artery disease,amit.rao@example.com
+Dr. Meera Jain,Pulmonologist,Urinary tract infection,meera.jain@example.com
+Dr. Sagar Reddy,Psychiatrist,GERD,sagar.reddy@example.com
+Dr. Sujay Kumar,ENT Specialist,Migraine,sujay.kumar@example.com
+Dr. Rahul Joshi,Psychiatrist,Epilepsy,rahul.joshi@example.com
+Dr. Neha Kumar,Dermatologist,Migraine,neha.kumar@example.com
+Dr. Sameer Iyer,Neurologist,Typhoid,sameer.iyer@example.com
+Dr. Raj Iyer,Endocrinologist,Diabetes,raj.iyer@example.com
+Dr. Rahul Singh,Dermatologist,Hypertension,rahul.singh@example.com
+Dr. Arjun Bose,General Physician,Diabetes,arjun.bose@example.com
+Dr. Sneha Das,Gynecologist,Chickenpox,sneha.das@example.com
+Dr. Ishita Bhat,Cardiologist,Coronary artery disease,ishita.bhat@example.com
+Dr. Ravi Kapoor,Gynecologist,Sinusitis,ravi.kapoor@example.com
+Dr. Arjun Verma,Oncologist,Arthritis,arjun.verma@example.com
+Dr. Komal Patel,General Physician,Diabetes,komal.patel@example.com
+Dr. Ankit Jain,Neurologist,Coronary artery disease,ankit.jain@example.com
+Dr. Rahul Kumar,Urologist,Urinary tract infection,rahul.kumar@example.com
+Dr. Kiran Kulkarni,Oncologist,Typhoid,kiran.kulkarni@example.com
+Dr. Meera Bose,Dermatologist,Migraine,meera.bose@example.com
+Dr. Raj Kapoor,Psychiatrist,Urinary tract infection,raj.kapoor@example.com
+Dr. Nisha Naik,Gastroenterologist,Thyroid disorders,nisha.naik@example.com
+Dr. Meera Kulkarni,Pediatrician,Deafness,meera.kulkarni@example.com
+Dr. Neha Rao,Gynecologist,Heart attack,neha.rao@example.com
+Dr. Varun Khan,Psychiatrist,Heart attack,varun.khan@example.com
+Dr. Raj Iyer,Cardiologist,Fungal infection,raj.iyer@example.com
+Dr. Ankit Shah,General Physician,Psoriasis,ankit.shah@example.com
+Dr. Sameer Bhat,Urologist,Asthma,sameer.bhat@example.com
+Dr. Komal Mehta,ENT Specialist,Coronary artery disease,komal.mehta@example.com
+Dr. Komal Menon,Gynecologist,GERD,komal.menon@example.com
+Dr. Rahul Das,Dermatologist,Sinusitis,rahul.das@example.com
+Dr. Meera Singh,Gastroenterologist,Sinusitis,meera.singh@example.com
+Dr. Ishita Das,Cardiologist,Typhoid,ishita.das@example.com
+Dr. Mahesh Mehta,Urologist,Fungal infection,mahesh.mehta@example.com
+Dr. Sujay Verma,Urologist,Cancer,sujay.verma@example.com
+Dr. Priya Bhatt,Endocrinologist,PCOS,priya.bhatt@example.com
+Dr. Nisha Kulkarni,Neurologist,PCOS,nisha.kulkarni@example.com
+Dr. Sameer Bose,Orthopedic,Cancer,sameer.bose@example.com
+Dr. Kiran Tyagi,Orthopedic,Heart attack,kiran.tyagi@example.com
+Dr. Rahul Joshi,Orthopedic,Fungal infection,rahul.joshi@example.com
+Dr. Arjun Bhatt,Gastroenterologist,Heart attack,arjun.bhatt@example.com
+Dr. Ankit Kapoor,Neurologist,Coronary artery disease,ankit.kapoor@example.com
+Dr. Neha Das,Endocrinologist,Psoriasis,neha.das@example.com
+Dr. Amit Khan,Psychiatrist,Typhoid,amit.khan@example.com
+Dr. Sameer Kapoor,Endocrinologist,Diabetes,sameer.kapoor@example.com
+Dr. Ravi Bhatt,Pediatrician,PCOS,ravi.bhatt@example.com
+Dr. Amit Bhat,Neurologist,Deafness,amit.bhat@example.com
+Dr. Mahesh Kulkarni,Urologist,Anxiety,mahesh.kulkarni@example.com
+Dr. Nisha Mehta,Oncologist,Common Cold,nisha.mehta@example.com
+Dr. Sneha Verma,Neurologist,Fungal infection,sneha.verma@example.com
+Dr. Sagar Verma,ENT Specialist,Migraine,sagar.verma@example.com
+Dr. Amit Kulkarni,Dermatologist,Typhoid,amit.kulkarni@example.com
+Dr. Ishita Bhat,Gynecologist,Cancer,ishita.bhat@example.com
+Dr. Ishita Rao,Orthopedic,Migraine,ishita.rao@example.com
+Dr. Ritu Das,General Physician,Cancer,ritu.das@example.com
+Dr. Neha Joshi,Neurologist,Psoriasis,neha.joshi@example.com
+Dr. Sneha Verma,ENT Specialist,Cancer,sneha.verma@example.com
+Dr. Rahul Kumar,Pediatrician,Thyroid disorders,rahul.kumar@example.com
+Dr. Arjun Kulkarni,Orthopedic,Thyroid disorders,arjun.kulkarni@example.com
+Dr. Meera Patel,ENT Specialist,Thyroid disorders,meera.patel@example.com
+Dr. Sagar Khan,Endocrinologist,Hypertension,sagar.khan@example.com
+Dr. Varun Kulkarni,Pediatrician,Migraine,varun.kulkarni@example.com
+Dr. Ishita Patel,Cardiologist,Asthma,ishita.patel@example.com
+Dr. Divya Singh,Dermatologist,Hepatitis B,divya.singh@example.com
+Dr. Asha Iyer,Urologist,Deafness,asha.iyer@example.com
+Dr. Raj Das,Psychiatrist,Fungal infection,raj.das@example.com
+Dr. Ishita Naik,Pulmonologist,Sinusitis,ishita.naik@example.com
+Dr. Asha Patel,Orthopedic,Arthritis,asha.patel@example.com
+Dr. Amit Jain,Gynecologist,Psoriasis,amit.jain@example.com
+Dr. Priya Iyer,Pediatrician,Deafness,priya.iyer@example.com
+Dr. Ankit Jain,Oncologist,Diabetes,ankit.jain@example.com
+Dr. Arjun Verma,Orthopedic,Thyroid disorders,arjun.verma@example.com
+Dr. Neha Reddy,Neurologist,Sinusitis,neha.reddy@example.com
+Dr. Nisha Mehta,Gynecologist,Sinusitis,nisha.mehta@example.com
+Dr. Neha Bose,Dermatologist,Hepatitis B,neha.bose@example.com
+Dr. Meera Menon,Gynecologist,Coronary artery disease,meera.menon@example.com
+Dr. Komal Rao,Gastroenterologist,GERD,komal.rao@example.com
+Dr. Amit Jain,ENT Specialist,Fungal infection,amit.jain@example.com
+Dr. Divya Joshi,Dermatologist,Coronary artery disease,divya.joshi@example.com
+Dr. Meera Reddy,Pulmonologist,Urinary tract infection,meera.reddy@example.com
+Dr. Ishita Tyagi,Endocrinologist,Deafness,ishita.tyagi@example.com
+Dr. Rahul Rao,Dermatologist,Chickenpox,rahul.rao@example.com
+Dr. Asha Naik,General Physician,Chickenpox,asha.naik@example.com
+Dr. Sujay Bose,Pulmonologist,Typhoid,sujay.bose@example.com
+Dr. Sujay Reddy,Gastroenterologist,Chickenpox,sujay.reddy@example.com
+Dr. Asha Bhatt,Pediatrician,Cancer,asha.bhatt@example.com
+Dr. Neha Iyer,Urologist,Asthma,neha.iyer@example.com
+Dr. Nisha Singh,Oncologist,Migraine,nisha.singh@example.com
+Dr. Ankit Iyer,Neurologist,Sinusitis,ankit.iyer@example.com
+Dr. Sujay Shetty,Neurologist,Sinusitis,sujay.shetty@example.com
+Dr. Nisha Tyagi,ENT Specialist,Fungal infection,nisha.tyagi@example.com
+Dr. Arjun Bhatt,Orthopedic,Sinusitis,arjun.bhatt@example.com
+Dr. Komal Kumar,Gynecologist,Coronary artery disease,komal.kumar@example.com
+Dr. Raj Kapoor,Gastroenterologist,Deafness,raj.kapoor@example.com
+Dr. Neha Reddy,Urologist,Fungal infection,neha.reddy@example.com
+Dr. Meera Bhatt,Gynecologist,Common Cold,meera.bhatt@example.com
+Dr. Kiran Joshi,Oncologist,Hepatitis B,kiran.joshi@example.com
+Dr. Varun Patel,Urologist,Hepatitis B,varun.patel@example.com
+Dr. Divya Jain,ENT Specialist,Heart attack,divya.jain@example.com
+Dr. Amit Verma,Gastroenterologist,Asthma,amit.verma@example.com
+Dr. Divya Singh,Pulmonologist,Heart attack,divya.singh@example.com
+Dr. Komal Joshi,Neurologist,Anxiety,komal.joshi@example.com
+Dr. Sagar Patel,ENT Specialist,GERD,sagar.patel@example.com
+Dr. Asha Iyer,Gastroenterologist,Chickenpox,asha.iyer@example.com
+Dr. Meera Khan,Dermatologist,Typhoid,meera.khan@example.com
+Dr. Amit Kapoor,Pulmonologist,Arthritis,amit.kapoor@example.com
+Dr. Rahul Mehta,Psychiatrist,Urinary tract infection,rahul.mehta@example.com
+Dr. Kiran Bhat,Pediatrician,Cancer,kiran.bhat@example.com
+Dr. Kiran Patel,Gastroenterologist,Urinary tract infection,kiran.patel@example.com
+Dr. Ankit Mehta,Cardiologist,Jaundice,ankit.mehta@example.com
+Dr. Asha Menon,Urologist,Hypertension,asha.menon@example.com
+Dr. Meera Mehta,General Physician,Asthma,meera.mehta@example.com
+Dr. Sameer Mehta,Psychiatrist,Fungal infection,sameer.mehta@example.com
+Dr. Sagar Reddy,Endocrinologist,Coronary artery disease,sagar.reddy@example.com
+Dr. Amit Kumar,Cardiologist,PCOS,amit.kumar@example.com
+Dr. Sameer Rao,Cardiologist,Heart attack,sameer.rao@example.com
+Dr. Mahesh Jain,Endocrinologist,Asthma,mahesh.jain@example.com
+Dr. Ritu Kapoor,Neurologist,Arthritis,ritu.kapoor@example.com
+Dr. Sujay Das,Gastroenterologist,Anxiety,sujay.das@example.com
+Dr. Varun Jain,Gynecologist,Fungal infection,varun.jain@example.com
+Dr. Sagar Mehta,Gastroenterologist,Thyroid disorders,sagar.mehta@example.com
+Dr. Kiran Shetty,Gynecologist,Typhoid,kiran.shetty@example.com
+Dr. Mahesh Iyer,Pediatrician,Anxiety,mahesh.iyer@example.com
+Dr. Sneha Tyagi,Gynecologist,Fungal infection,sneha.tyagi@example.com
+Dr. Ravi Mehta,Gynecologist,Cancer,ravi.mehta@example.com
+Dr. Ritu Singh,Gynecologist,Migraine,ritu.singh@example.com
+Dr. Sagar Verma,Cardiologist,Cancer,sagar.verma@example.com
+Dr. Arjun Joshi,Neurologist,Hypertension,arjun.joshi@example.com
+Dr. Priya Tyagi,ENT Specialist,GERD,priya.tyagi@example.com
+Dr. Divya Mehta,Oncologist,Anxiety,divya.mehta@example.com
+Dr. Sneha Kapoor,Psychiatrist,Thyroid disorders,sneha.kapoor@example.com
+Dr. Rahul Bose,Pulmonologist,Hepatitis B,rahul.bose@example.com
+Dr. Sagar Kumar,General Physician,Fungal infection,sagar.kumar@example.com
+Dr. Rahul Reddy,Oncologist,Jaundice,rahul.reddy@example.com
+Dr. Nisha Iyer,Gastroenterologist,Common Cold,nisha.iyer@example.com
+Dr. Nisha Kumar,General Physician,Hepatitis B,nisha.kumar@example.com
+Dr. Ravi Verma,Gynecologist,Migraine,ravi.verma@example.com
+Dr. Neha Patel,Gastroenterologist,Coronary artery disease,neha.patel@example.com
+Dr. Raj Bhat,General Physician,Epilepsy,raj.bhat@example.com
+Dr. Sujay Jain,Psychiatrist,Epilepsy,sujay.jain@example.com
+Dr. Sameer Kumar,Cardiologist,Sinusitis,sameer.kumar@example.com
+Dr. Amit Mehta,Gynecologist,Fungal infection,amit.mehta@example.com
+Dr. Sneha Joshi,Pediatrician,Typhoid,sneha.joshi@example.com
+Dr. Varun Kumar,Psychiatrist,Cancer,varun.kumar@example.com
+Dr. Komal Kulkarni,Dermatologist,Arthritis,komal.kulkarni@example.com
+Dr. Komal Jain,Psychiatrist,Deafness,komal.jain@example.com
+Dr. Pooja Jain,ENT Specialist,Anxiety,pooja.jain@example.com
+Dr. Amit Joshi,Gynecologist,Migraine,amit.joshi@example.com
+Dr. Ishita Shetty,General Physician,Common Cold,ishita.shetty@example.com
+Dr. Amit Shah,Pulmonologist,Diabetes,amit.shah@example.com
+Dr. Ishita Verma,Oncologist,Fungal infection,ishita.verma@example.com
+Dr. Kiran Patel,Orthopedic,Hypertension,kiran.patel@example.com
+Dr. Priya Kulkarni,Pediatrician,Thyroid disorders,priya.kulkarni@example.com
+Dr. Ankit Khan,Gynecologist,Epilepsy,ankit.khan@example.com
+Dr. Nisha Rao,Neurologist,Asthma,nisha.rao@example.com
+Dr. Sujay Mehta,Pulmonologist,Typhoid,sujay.mehta@example.com
+Dr. Sneha Reddy,Orthopedic,Asthma,sneha.reddy@example.com
+Dr. Sagar Singh,ENT Specialist,Common Cold,sagar.singh@example.com
+Dr. Rahul Naik,Pediatrician,Deafness,rahul.naik@example.com
+Dr. Neha Iyer,Neurologist,Thyroid disorders,neha.iyer@example.com
+Dr. Varun Naik,Urologist,PCOS,varun.naik@example.com
+Dr. Komal Kulkarni,Neurologist,GERD,komal.kulkarni@example.com
+Dr. Nisha Bose,ENT Specialist,Migraine,nisha.bose@example.com
+Dr. Sneha Kulkarni,Endocrinologist,Asthma,sneha.kulkarni@example.com
+Dr. Pooja Bhatt,Urologist,Diabetes,pooja.bhatt@example.com
+Dr. Neha Bhat,Neurologist,Thyroid disorders,neha.bhat@example.com
+Dr. Mahesh Rao,ENT Specialist,Asthma,mahesh.rao@example.com
+Dr. Ishita Singh,Cardiologist,Cancer,ishita.singh@example.com
+Dr. Mahesh Kumar,Gastroenterologist,Coronary artery disease,mahesh.kumar@example.com
+Dr. Sneha Kulkarni,Dermatologist,Thyroid disorders,sneha.kulkarni@example.com
+Dr. Arjun Kumar,Neurologist,Fungal infection,arjun.kumar@example.com
+Dr. Mahesh Verma,Urologist,Arthritis,mahesh.verma@example.com
+Dr. Ravi Verma,Psychiatrist,PCOS,ravi.verma@example.com
+Dr. Arjun Rao,Pulmonologist,Chickenpox,arjun.rao@example.com
+Dr. Meera Kulkarni,Neurologist,Fungal infection,meera.kulkarni@example.com
+Dr. Amit Kumar,ENT Specialist,Epilepsy,amit.kumar@example.com
+Dr. Ravi Jain,Urologist,Jaundice,ravi.jain@example.com
+Dr. Arjun Kumar,Psychiatrist,Psoriasis,arjun.kumar@example.com
+Dr. Arjun Das,Endocrinologist,Hypertension,arjun.das@example.com
+Dr. Kiran Shetty,Endocrinologist,Diabetes,kiran.shetty@example.com
+Dr. Kiran Kulkarni,Psychiatrist,Arthritis,kiran.kulkarni@example.com
+Dr. Sameer Reddy,Urologist,Coronary artery disease,sameer.reddy@example.com
+Dr. Divya Joshi,Cardiologist,Coronary artery disease,divya.joshi@example.com
+Dr. Asha Mehta,Psychiatrist,Thyroid disorders,asha.mehta@example.com
+Dr. Sameer Kulkarni,Gastroenterologist,Migraine,sameer.kulkarni@example.com
+Dr. Sujay Rao,Gastroenterologist,GERD,sujay.rao@example.com
+Dr. Sneha Kulkarni,Cardiologist,Arthritis,sneha.kulkarni@example.com
+Dr. Pooja Jain,ENT Specialist,Anxiety,pooja.jain@example.com
+Dr. Sagar Khan,General Physician,Urinary tract infection,sagar.khan@example.com
+Dr. Asha Shah,Endocrinologist,Urinary tract infection,asha.shah@example.com
+Dr. Sagar Khan,Gastroenterologist,Cancer,sagar.khan@example.com
+Dr. Arjun Shetty,Neurologist,Diabetes,arjun.shetty@example.com
+Dr. Sagar Das,Pulmonologist,PCOS,sagar.das@example.com
+Dr. Nisha Reddy,Urologist,Thyroid disorders,nisha.reddy@example.com
+Dr. Sujay Bhat,Psychiatrist,Common Cold,sujay.bhat@example.com
+Dr. Mahesh Kulkarni,Psychiatrist,Cancer,mahesh.kulkarni@example.com
+Dr. Pooja Mehta,General Physician,Fungal infection,pooja.mehta@example.com
+Dr. Pooja Verma,Pediatrician,Anxiety,pooja.verma@example.com
+Dr. Ritu Kumar,ENT Specialist,Chickenpox,ritu.kumar@example.com
+Dr. Raj Tyagi,Oncologist,Hypertension,raj.tyagi@example.com
+Dr. Rahul Shetty,Neurologist,Chickenpox,rahul.shetty@example.com
+Dr. Sameer Khan,Pulmonologist,Coronary artery disease,sameer.khan@example.com
+Dr. Divya Joshi,Psychiatrist,Common Cold,divya.joshi@example.com
+Dr. Amit Singh,Urologist,Common Cold,amit.singh@example.com
+Dr. Asha Menon,Oncologist,Epilepsy,asha.menon@example.com
+Dr. Raj Menon,Psychiatrist,Sinusitis,raj.menon@example.com
+Dr. Sameer Patel,Endocrinologist,Epilepsy,sameer.patel@example.com
+Dr. Amit Verma,Gynecologist,Anxiety,amit.verma@example.com
+Dr. Sneha Singh,Endocrinologist,PCOS,sneha.singh@example.com
+Dr. Arjun Rao,Pediatrician,GERD,arjun.rao@example.com
+Dr. Ritu Patel,Orthopedic,GERD,ritu.patel@example.com
+Dr. Raj Jain,Orthopedic,Hepatitis B,raj.jain@example.com
+Dr. Raj Iyer,Dermatologist,Common Cold,raj.iyer@example.com
+Dr. Ankit Verma,Neurologist,GERD,ankit.verma@example.com
+Dr. Sujay Khan,Gastroenterologist,Coronary artery disease,sujay.khan@example.com
+Dr. Varun Shah,Oncologist,Typhoid,varun.shah@example.com
+Dr. Komal Menon,Gynecologist,Psoriasis,komal.menon@example.com
+Dr. Komal Kulkarni,Endocrinologist,Common Cold,komal.kulkarni@example.com
+Dr. Sneha Mehta,Dermatologist,Hepatitis B,sneha.mehta@example.com
+Dr. Ravi Mehta,Dermatologist,Deafness,ravi.mehta@example.com
+Dr. Amit Shetty,Orthopedic,Anxiety,amit.shetty@example.com
+Dr. Ankit Menon,Pulmonologist,Thyroid disorders,ankit.menon@example.com
+Dr. Sameer Bhatt,Oncologist,GERD,sameer.bhatt@example.com
+Dr. Arjun Khan,General Physician,Urinary tract infection,arjun.khan@example.com
+Dr. Arjun Tyagi,ENT Specialist,Coronary artery disease,arjun.tyagi@example.com
+Dr. Ankit Mehta,Orthopedic,Thyroid disorders,ankit.mehta@example.com
+Dr. Pooja Iyer,Oncologist,Thyroid disorders,pooja.iyer@example.com
+Dr. Arjun Patel,Urologist,Epilepsy,arjun.patel@example.com
+Dr. Ravi Jain,Dermatologist,Coronary artery disease,ravi.jain@example.com
+Dr. Sameer Bhatt,Oncologist,Hypertension,sameer.bhatt@example.com
+Dr. Mahesh Kulkarni,General Physician,Anxiety,mahesh.kulkarni@example.com
+Dr. Meera Joshi,Dermatologist,Epilepsy,meera.joshi@example.com
+Dr. Ishita Verma,Gynecologist,Psoriasis,ishita.verma@example.com
+Dr. Ishita Reddy,Psychiatrist,Cancer,ishita.reddy@example.com
+Dr. Ravi Patel,Neurologist,Anxiety,ravi.patel@example.com
+Dr. Ravi Shetty,Neurologist,Anxiety,ravi.shetty@example.com
+Dr. Neha Joshi,Pediatrician,Heart attack,neha.joshi@example.com
+Dr. Mahesh Shah,Endocrinologist,Jaundice,mahesh.shah@example.com
+Dr. Nisha Shetty,Gastroenterologist,Hepatitis B,nisha.shetty@example.com
+Dr. Kiran Rao,ENT Specialist,Jaundice,kiran.rao@example.com
+Dr. Sujay Rao,Cardiologist,Psoriasis,sujay.rao@example.com
+Dr. Sagar Bhatt,Neurologist,Urinary tract infection,sagar.bhatt@example.com
+Dr. Sujay Shetty,Pediatrician,Heart attack,sujay.shetty@example.com
+Dr. Priya Khan,General Physician,Migraine,priya.khan@example.com
+Dr. Nisha Verma,ENT Specialist,GERD,nisha.verma@example.com
+Dr. Ritu Kumar,Gastroenterologist,Arthritis,ritu.kumar@example.com
+Dr. Komal Kulkarni,General Physician,Deafness,komal.kulkarni@example.com
+Dr. Mahesh Singh,Neurologist,Thyroid disorders,mahesh.singh@example.com
+Dr. Ravi Iyer,Gynecologist,GERD,ravi.iyer@example.com
+Dr. Sagar Patel,Orthopedic,Chickenpox,sagar.patel@example.com
+Dr. Ishita Khan,Psychiatrist,PCOS,ishita.khan@example.com
+Dr. Asha Bhat,Orthopedic,GERD,asha.bhat@example.com
+Dr. Rahul Patel,General Physician,Common Cold,rahul.patel@example.com
+Dr. Nisha Kumar,Gynecologist,Cancer,nisha.kumar@example.com
+Dr. Raj Iyer,Cardiologist,Hepatitis B,raj.iyer@example.com
+Dr. Ishita Iyer,ENT Specialist,Diabetes,ishita.iyer@example.com
+Dr. Ritu Bose,Gynecologist,Hypertension,ritu.bose@example.com
+Dr. Sneha Kumar,Neurologist,Coronary artery disease,sneha.kumar@example.com
+Dr. Meera Shetty,Gynecologist,Psoriasis,meera.shetty@example.com
+Dr. Asha Verma,Gynecologist,Migraine,asha.verma@example.com
+Dr. Divya Naik,ENT Specialist,Jaundice,divya.naik@example.com
+Dr. Raj Shah,Cardiologist,Thyroid disorders,raj.shah@example.com
+Dr. Sneha Naik,General Physician,Sinusitis,sneha.naik@example.com
+Dr. Rahul Mehta,Oncologist,Psoriasis,rahul.mehta@example.com
+Dr. Priya Patel,Oncologist,Asthma,priya.patel@example.com
+Dr. Raj Khan,Cardiologist,Urinary tract infection,raj.khan@example.com
+Dr. Meera Naik,Oncologist,Jaundice,meera.naik@example.com
+Dr. Kiran Naik,Neurologist,Asthma,kiran.naik@example.com
+Dr. Komal Kulkarni,Pediatrician,Urinary tract infection,komal.kulkarni@example.com
+Dr. Komal Bhat,Neurologist,Psoriasis,komal.bhat@example.com
+Dr. Mahesh Rao,Pulmonologist,Arthritis,mahesh.rao@example.com
+Dr. Sneha Patel,Pulmonologist,Diabetes,sneha.patel@example.com
+Dr. Varun Bose,Oncologist,Hepatitis B,varun.bose@example.com
+Dr. Nisha Bose,Pediatrician,Asthma,nisha.bose@example.com
+Dr. Divya Tyagi,Pulmonologist,GERD,divya.tyagi@example.com
+Dr. Kiran Shah,Urologist,Deafness,kiran.shah@example.com
+Dr. Nisha Shah,Oncologist,Migraine,nisha.shah@example.com
+Dr. Sneha Kapoor,General Physician,Coronary artery disease,sneha.kapoor@example.com
+Dr. Meera Reddy,Dermatologist,Chickenpox,meera.reddy@example.com
+Dr. Varun Tyagi,ENT Specialist,Hepatitis B,varun.tyagi@example.com
+Dr. Sameer Bose,General Physician,Common Cold,sameer.bose@example.com
+Dr. Mahesh Shetty,Oncologist,Asthma,mahesh.shetty@example.com
+Dr. Sujay Singh,ENT Specialist,Cancer,sujay.singh@example.com
+Dr. Mahesh Khan,Neurologist,Typhoid,mahesh.khan@example.com
+Dr. Sagar Kumar,Orthopedic,Chickenpox,sagar.kumar@example.com
+Dr. Meera Bhat,Gynecologist,Coronary artery disease,meera.bhat@example.com
+Dr. Divya Naik,Pediatrician,Cancer,divya.naik@example.com
+Dr. Meera Bose,Pulmonologist,Chickenpox,meera.bose@example.com
+Dr. Sagar Mehta,Dermatologist,PCOS,sagar.mehta@example.com
+Dr. Ritu Shah,Cardiologist,Diabetes,ritu.shah@example.com
+Dr. Pooja Bhatt,Pediatrician,Psoriasis,pooja.bhatt@example.com
+Dr. Kiran Das,Gastroenterologist,PCOS,kiran.das@example.com
+Dr. Pooja Bose,Cardiologist,Migraine,pooja.bose@example.com
+Dr. Priya Bhat,Pediatrician,Urinary tract infection,priya.bhat@example.com
+Dr. Pooja Bhat,ENT Specialist,Hypertension,pooja.bhat@example.com
+Dr. Divya Tyagi,Psychiatrist,Anxiety,divya.tyagi@example.com
+Dr. Sujay Menon,Pediatrician,Fungal infection,sujay.menon@example.com
+Dr. Meera Mehta,Orthopedic,Common Cold,meera.mehta@example.com
+Dr. Kiran Jain,Pediatrician,PCOS,kiran.jain@example.com
+Dr. Sneha Bhat,Pediatrician,Asthma,sneha.bhat@example.com
+Dr. Priya Shetty,Dermatologist,Anxiety,priya.shetty@example.com
+Dr. Neha Rao,Orthopedic,Heart attack,neha.rao@example.com
+Dr. Raj Mehta,ENT Specialist,Common Cold,raj.mehta@example.com
+Dr. Kiran Shah,Cardiologist,Cancer,kiran.shah@example.com
+Dr. Ritu Iyer,Neurologist,GERD,ritu.iyer@example.com
+Dr. Sagar Bhat,Gynecologist,Migraine,sagar.bhat@example.com
+Dr. Nisha Patel,Gynecologist,Thyroid disorders,nisha.patel@example.com
+Dr. Sneha Singh,Pediatrician,Hepatitis B,sneha.singh@example.com
+Dr. Komal Bhatt,General Physician,Arthritis,komal.bhatt@example.com
+Dr. Sujay Kulkarni,Endocrinologist,Migraine,sujay.kulkarni@example.com
+Dr. Divya Jain,Dermatologist,Common Cold,divya.jain@example.com
+Dr. Asha Das,Endocrinologist,Asthma,asha.das@example.com
+Dr. Ishita Bhatt,Pulmonologist,Heart attack,ishita.bhatt@example.com
+Dr. Arjun Naik,Gastroenterologist,GERD,arjun.naik@example.com
+Dr. Amit Shah,ENT Specialist,Hypertension,amit.shah@example.com
+Dr. Kiran Verma,Oncologist,Psoriasis,kiran.verma@example.com
+Dr. Meera Kapoor,Psychiatrist,Typhoid,meera.kapoor@example.com
+Dr. Komal Bhatt,Gynecologist,Epilepsy,komal.bhatt@example.com
+Dr. Ravi Kapoor,Gastroenterologist,Coronary artery disease,ravi.kapoor@example.com
+Dr. Meera Joshi,Neurologist,Thyroid disorders,meera.joshi@example.com
+Dr. Asha Rao,Endocrinologist,GERD,asha.rao@example.com
+Dr. Sujay Reddy,Gynecologist,Hepatitis B,sujay.reddy@example.com
+Dr. Komal Das,Orthopedic,GERD,komal.das@example.com
+Dr. Raj Iyer,Cardiologist,Cancer,raj.iyer@example.com
+Dr. Amit Mehta,Pediatrician,Heart attack,amit.mehta@example.com
+Dr. Ritu Kumar,Gynecologist,Common Cold,ritu.kumar@example.com
+Dr. Sujay Kulkarni,Pediatrician,Epilepsy,sujay.kulkarni@example.com
+Dr. Amit Bhatt,Pediatrician,PCOS,amit.bhatt@example.com
+Dr. Sneha Naik,Gastroenterologist,Diabetes,sneha.naik@example.com
+Dr. Amit Patel,Neurologist,Deafness,amit.patel@example.com
+Dr. Sneha Mehta,Oncologist,Coronary artery disease,sneha.mehta@example.com
+Dr. Sameer Naik,Pediatrician,Chickenpox,sameer.naik@example.com
+Dr. Sujay Khan,ENT Specialist,PCOS,sujay.khan@example.com
+Dr. Sujay Kapoor,Dermatologist,Psoriasis,sujay.kapoor@example.com
+Dr. Ritu Kulkarni,Cardiologist,Fungal infection,ritu.kulkarni@example.com
+Dr. Raj Tyagi,ENT Specialist,Heart attack,raj.tyagi@example.com
+Dr. Ravi Patel,Orthopedic,Chickenpox,ravi.patel@example.com
+Dr. Amit Kumar,Oncologist,Cancer,amit.kumar@example.com
+Dr. Neha Bhat,Neurologist,Cancer,neha.bhat@example.com
+Dr. Sujay Jain,Pulmonologist,Heart attack,sujay.jain@example.com
+Dr. Neha Naik,Cardiologist,Diabetes,neha.naik@example.com
+Dr. Sneha Kapoor,Gastroenterologist,Common Cold,sneha.kapoor@example.com
+Dr. Meera Verma,General Physician,Thyroid disorders,meera.verma@example.com
+Dr. Divya Das,Pediatrician,Hepatitis B,divya.das@example.com
+Dr. Raj Patel,Urologist,Typhoid,raj.patel@example.com
+Dr. Asha Bose,Oncologist,Heart attack,asha.bose@example.com
+Dr. Ravi Mehta,Pulmonologist,Fungal infection,ravi.mehta@example.com
+Dr. Rahul Bhatt,Urologist,Cancer,rahul.bhatt@example.com
+Dr. Komal Singh,Cardiologist,Asthma,komal.singh@example.com
+Dr. Amit Kapoor,Gastroenterologist,Diabetes,amit.kapoor@example.com
+Dr. Kiran Bhat,Pediatrician,GERD,kiran.bhat@example.com
+Dr. Pooja Shah,Gastroenterologist,Epilepsy,pooja.shah@example.com
+Dr. Asha Verma,Endocrinologist,Sinusitis,asha.verma@example.com
+Dr. Komal Singh,Pulmonologist,Hypertension,komal.singh@example.com
+Dr. Priya Shah,Cardiologist,Jaundice,priya.shah@example.com
+Dr. Raj Patel,Pediatrician,Typhoid,raj.patel@example.com
+Dr. Raj Reddy,Gastroenterologist,Epilepsy,raj.reddy@example.com
+Dr. Pooja Kulkarni,Urologist,Typhoid,pooja.kulkarni@example.com
+Dr. Amit Bhat,Cardiologist,PCOS,amit.bhat@example.com
+Dr. Ravi Patel,Pulmonologist,Fungal infection,ravi.patel@example.com
+Dr. Divya Kulkarni,Oncologist,Hepatitis B,divya.kulkarni@example.com
+Dr. Ankit Naik,General Physician,Chickenpox,ankit.naik@example.com
+Dr. Sujay Menon,Oncologist,Chickenpox,sujay.menon@example.com
+Dr. Arjun Iyer,Gynecologist,Anxiety,arjun.iyer@example.com
+Dr. Rahul Tyagi,Gastroenterologist,Typhoid,rahul.tyagi@example.com
+Dr. Sagar Reddy,Pediatrician,PCOS,sagar.reddy@example.com
+Dr. Varun Menon,Pediatrician,Hypertension,varun.menon@example.com
+Dr. Sneha Verma,Oncologist,Epilepsy,sneha.verma@example.com
+Dr. Nisha Verma,Endocrinologist,Thyroid disorders,nisha.verma@example.com
+Dr. Amit Tyagi,Pediatrician,Fungal infection,amit.tyagi@example.com
+Dr. Arjun Das,Endocrinologist,Arthritis,arjun.das@example.com
+Dr. Raj Iyer,Gynecologist,Typhoid,raj.iyer@example.com
+Dr. Sujay Bose,ENT Specialist,GERD,sujay.bose@example.com
+Dr. Ankit Verma,Cardiologist,Thyroid disorders,ankit.verma@example.com
+Dr. Pooja Patel,General Physician,Hepatitis B,pooja.patel@example.com
+Dr. Neha Kulkarni,Oncologist,Cancer,neha.kulkarni@example.com
+Dr. Sujay Singh,Neurologist,Fungal infection,sujay.singh@example.com
+Dr. Arjun Mehta,Pediatrician,Sinusitis,arjun.mehta@example.com
+Dr. Komal Verma,Dermatologist,Heart attack,komal.verma@example.com
+Dr. Ritu Bhat,Dermatologist,Common Cold,ritu.bhat@example.com
+Dr. Asha Bose,Orthopedic,Thyroid disorders,asha.bose@example.com
+Dr. Sneha Bose,General Physician,Chickenpox,sneha.bose@example.com
+Dr. Ritu Patel,Endocrinologist,Psoriasis,ritu.patel@example.com
+Dr. Komal Bhatt,Dermatologist,Psoriasis,komal.bhatt@example.com
+Dr. Divya Khan,Urologist,PCOS,divya.khan@example.com
+Dr. Meera Khan,Endocrinologist,Psoriasis,meera.khan@example.com
+Dr. Pooja Khan,Gynecologist,Urinary tract infection,pooja.khan@example.com
+Dr. Amit Singh,Cardiologist,Migraine,amit.singh@example.com
+Dr. Ankit Rao,Dermatologist,Cancer,ankit.rao@example.com
+Dr. Priya Rao,Neurologist,GERD,priya.rao@example.com
+Dr. Kiran Mehta,Orthopedic,Diabetes,kiran.mehta@example.com
+Dr. Kiran Joshi,Orthopedic,Asthma,kiran.joshi@example.com
+Dr. Sujay Shah,Neurologist,Fungal infection,sujay.shah@example.com
+Dr. Nisha Verma,Endocrinologist,GERD,nisha.verma@example.com
+Dr. Komal Menon,Orthopedic,Chickenpox,komal.menon@example.com
+Dr. Sneha Menon,Pediatrician,Sinusitis,sneha.menon@example.com
+Dr. Rahul Singh,Pulmonologist,Urinary tract infection,rahul.singh@example.com
+Dr. Ankit Kapoor,Oncologist,Hypertension,ankit.kapoor@example.com
+Dr. Varun Khan,Oncologist,Deafness,varun.khan@example.com
+Dr. Priya Verma,Neurologist,Chickenpox,priya.verma@example.com
+Dr. Ritu Kapoor,Urologist,Psoriasis,ritu.kapoor@example.com
+Dr. Amit Iyer,Neurologist,Urinary tract infection,amit.iyer@example.com
+Dr. Varun Kapoor,Oncologist,Anxiety,varun.kapoor@example.com
+Dr. Asha Tyagi,General Physician,Thyroid disorders,asha.tyagi@example.com
+Dr. Kiran Khan,Gynecologist,Epilepsy,kiran.khan@example.com
+Dr. Sneha Naik,Pediatrician,Psoriasis,sneha.naik@example.com
+Dr. Asha Shah,Pediatrician,Fungal infection,asha.shah@example.com
+Dr. Komal Shetty,Orthopedic,Typhoid,komal.shetty@example.com
+Dr. Sneha Shah,Urologist,Psoriasis,sneha.shah@example.com
+Dr. Raj Singh,ENT Specialist,Sinusitis,raj.singh@example.com
+Dr. Sneha Shah,Gastroenterologist,Sinusitis,sneha.shah@example.com
+Dr. Kiran Shah,Dermatologist,Anxiety,kiran.shah@example.com
+Dr. Ankit Jain,Oncologist,Common Cold,ankit.jain@example.com
+Dr. Sagar Rao,Pediatrician,Diabetes,sagar.rao@example.com
+Dr. Raj Naik,Pediatrician,Chickenpox,raj.naik@example.com
+Dr. Neha Patel,ENT Specialist,Asthma,neha.patel@example.com
+Dr. Varun Shetty,Oncologist,Deafness,varun.shetty@example.com
+Dr. Raj Shetty,Pediatrician,Migraine,raj.shetty@example.com
+Dr. Arjun Bhatt,Neurologist,PCOS,arjun.bhatt@example.com
+Dr. Priya Kulkarni,Dermatologist,Diabetes,priya.kulkarni@example.com
+Dr. Pooja Bhatt,Neurologist,GERD,pooja.bhatt@example.com
+Dr. Sameer Kulkarni,Oncologist,Jaundice,sameer.kulkarni@example.com
+Dr. Arjun Naik,Orthopedic,Jaundice,arjun.naik@example.com
+Dr. Priya Khan,Psychiatrist,Coronary artery disease,priya.khan@example.com
+Dr. Neha Joshi,Gynecologist,Arthritis,neha.joshi@example.com
+Dr. Divya Kulkarni,Urologist,Fungal infection,divya.kulkarni@example.com
+Dr. Sameer Kumar,ENT Specialist,Deafness,sameer.kumar@example.com
+Dr. Varun Rao,Dermatologist,Migraine,varun.rao@example.com
+Dr. Sameer Kulkarni,Pediatrician,Epilepsy,sameer.kulkarni@example.com
+Dr. Ravi Menon,Oncologist,Sinusitis,ravi.menon@example.com
+Dr. Asha Bose,General Physician,Sinusitis,asha.bose@example.com
+Dr. Neha Kapoor,Cardiologist,Common Cold,neha.kapoor@example.com
+Dr. Meera Shetty,Neurologist,Migraine,meera.shetty@example.com
+Dr. Meera Singh,Psychiatrist,Asthma,meera.singh@example.com
+Dr. Sameer Das,Endocrinologist,Cancer,sameer.das@example.com
+Dr. Kiran Naik,Gynecologist,Anxiety,kiran.naik@example.com
+Dr. Sujay Bhatt,Urologist,Chickenpox,sujay.bhatt@example.com
+Dr. Sneha Jain,Orthopedic,Arthritis,sneha.jain@example.com
+Dr. Amit Reddy,Urologist,Cancer,amit.reddy@example.com
+Dr. Sameer Bose,Urologist,Epilepsy,sameer.bose@example.com
+Dr. Divya Khan,Neurologist,Urinary tract infection,divya.khan@example.com
+Dr. Komal Naik,Pediatrician,Asthma,komal.naik@example.com
+Dr. Komal Menon,Pulmonologist,Psoriasis,komal.menon@example.com
+Dr. Asha Mehta,Orthopedic,Coronary artery disease,asha.mehta@example.com
+Dr. Kiran Verma,Gastroenterologist,Urinary tract infection,kiran.verma@example.com
+Dr. Meera Bhat,Gynecologist,Diabetes,meera.bhat@example.com
+Dr. Sneha Rao,Endocrinologist,Epilepsy,sneha.rao@example.com
+Dr. Ritu Mehta,Dermatologist,Migraine,ritu.mehta@example.com
+Dr. Sujay Rao,Gastroenterologist,Typhoid,sujay.rao@example.com
+Dr. Meera Rao,Urologist,PCOS,meera.rao@example.com
+Dr. Kiran Rao,Urologist,Jaundice,kiran.rao@example.com
+Dr. Varun Rao,Psychiatrist,Hepatitis B,varun.rao@example.com
+Dr. Divya Kapoor,Gynecologist,Deafness,divya.kapoor@example.com
+Dr. Sneha Bhatt,Psychiatrist,Urinary tract infection,sneha.bhatt@example.com
+Dr. Sameer Bhat,Orthopedic,Sinusitis,sameer.bhat@example.com
+Dr. Divya Kapoor,Pulmonologist,Migraine,divya.kapoor@example.com
+Dr. Mahesh Singh,ENT Specialist,Chickenpox,mahesh.singh@example.com
+Dr. Nisha Verma,Oncologist,Jaundice,nisha.verma@example.com
+Dr. Amit Singh,Orthopedic,Sinusitis,amit.singh@example.com
+Dr. Ishita Das,General Physician,Hepatitis B,ishita.das@example.com
+Dr. Raj Reddy,Orthopedic,Sinusitis,raj.reddy@example.com
+Dr. Ankit Bose,Gastroenterologist,Fungal infection,ankit.bose@example.com
+Dr. Divya Shetty,Urologist,Hypertension,divya.shetty@example.com
+Dr. Divya Bhatt,Cardiologist,GERD,divya.bhatt@example.com
+Dr. Priya Rao,Pulmonologist,Diabetes,priya.rao@example.com
+Dr. Rahul Menon,Cardiologist,Asthma,rahul.menon@example.com
+Dr. Sagar Rao,Orthopedic,Migraine,sagar.rao@example.com
+Dr. Mahesh Reddy,Cardiologist,Chickenpox,mahesh.reddy@example.com
+Dr. Varun Jain,Psychiatrist,Hypertension,varun.jain@example.com
+Dr. Arjun Das,Oncologist,Fungal infection,arjun.das@example.com
+Dr. Neha Khan,Orthopedic,Coronary artery disease,neha.khan@example.com
+Dr. Divya Bhat,Oncologist,Asthma,divya.bhat@example.com
+Dr. Priya Reddy,Pediatrician,GERD,priya.reddy@example.com
+Dr. Pooja Rao,Orthopedic,GERD,pooja.rao@example.com
+Dr. Kiran Patel,Cardiologist,Arthritis,kiran.patel@example.com
+Dr. Amit Iyer,Gynecologist,Fungal infection,amit.iyer@example.com
+Dr. Amit Iyer,Dermatologist,Fungal infection,amit.iyer@example.com
+Dr. Arjun Shetty,Orthopedic,Migraine,arjun.shetty@example.com
+Dr. Ankit Naik,Oncologist,Coronary artery disease,ankit.naik@example.com
+Dr. Ravi Shetty,Gastroenterologist,Thyroid disorders,ravi.shetty@example.com
+Dr. Pooja Kapoor,Pediatrician,Fungal infection,pooja.kapoor@example.com
+Dr. Ravi Verma,Urologist,Typhoid,ravi.verma@example.com
+Dr. Sagar Das,Gastroenterologist,Urinary tract infection,sagar.das@example.com
+Dr. Asha Tyagi,General Physician,Arthritis,asha.tyagi@example.com
+Dr. Raj Reddy,Oncologist,Urinary tract infection,raj.reddy@example.com
+Dr. Arjun Iyer,General Physician,Urinary tract infection,arjun.iyer@example.com
+Dr. Mahesh Singh,ENT Specialist,Chickenpox,mahesh.singh@example.com
+Dr. Ishita Reddy,Psychiatrist,Common Cold,ishita.reddy@example.com
+Dr. Varun Khan,Urologist,Diabetes,varun.khan@example.com
+Dr. Ishita Tyagi,Orthopedic,Cancer,ishita.tyagi@example.com
+Dr. Sagar Shah,Pulmonologist,Coronary artery disease,sagar.shah@example.com
+Dr. Priya Das,Psychiatrist,Heart attack,priya.das@example.com
+Dr. Amit Menon,Urologist,Psoriasis,amit.menon@example.com
+Dr. Nisha Mehta,Oncologist,Hepatitis B,nisha.mehta@example.com
+Dr. Neha Das,Cardiologist,Thyroid disorders,neha.das@example.com
+Dr. Meera Singh,Gynecologist,Cancer,meera.singh@example.com
+Dr. Asha Kapoor,Cardiologist,Common Cold,asha.kapoor@example.com
+Dr. Rahul Mehta,Endocrinologist,GERD,rahul.mehta@example.com
+Dr. Ravi Bose,Oncologist,Hypertension,ravi.bose@example.com
+Dr. Neha Kumar,Psychiatrist,Typhoid,neha.kumar@example.com
+Dr. Kiran Mehta,ENT Specialist,Common Cold,kiran.mehta@example.com
+Dr. Ravi Singh,Endocrinologist,GERD,ravi.singh@example.com
+Dr. Nisha Singh,Psychiatrist,Psoriasis,nisha.singh@example.com
+Dr. Meera Singh,Psychiatrist,GERD,meera.singh@example.com
+Dr. Asha Jain,Gastroenterologist,GERD,asha.jain@example.com
+Dr. Arjun Tyagi,Psychiatrist,Chickenpox,arjun.tyagi@example.com
+Dr. Varun Jain,Pulmonologist,GERD,varun.jain@example.com
+Dr. Varun Patel,General Physician,Hypertension,varun.patel@example.com
+Dr. Varun Shah,Pulmonologist,Chickenpox,varun.shah@example.com
+Dr. Sneha Singh,Cardiologist,Hepatitis B,sneha.singh@example.com
+Dr. Rahul Kapoor,Orthopedic,Migraine,rahul.kapoor@example.com
+Dr. Neha Jain,Pulmonologist,Thyroid disorders,neha.jain@example.com
+Dr. Nisha Bose,General Physician,Hepatitis B,nisha.bose@example.com
+Dr. Arjun Rao,Cardiologist,Urinary tract infection,arjun.rao@example.com
+Dr. Mahesh Iyer,ENT Specialist,Heart attack,mahesh.iyer@example.com
+Dr. Meera Mehta,Orthopedic,Coronary artery disease,meera.mehta@example.com
+Dr. Meera Kapoor,ENT Specialist,Heart attack,meera.kapoor@example.com
+Dr. Kiran Das,General Physician,Fungal infection,kiran.das@example.com
+Dr. Rahul Das,Orthopedic,Coronary artery disease,rahul.das@example.com
+Dr. Sameer Khan,ENT Specialist,Thyroid disorders,sameer.khan@example.com
+Dr. Nisha Reddy,Neurologist,Thyroid disorders,nisha.reddy@example.com
+Dr. Ankit Bhat,Gynecologist,Coronary artery disease,ankit.bhat@example.com
+Dr. Varun Joshi,Neurologist,Coronary artery disease,varun.joshi@example.com
+Dr. Sneha Tyagi,Dermatologist,Common Cold,sneha.tyagi@example.com
+Dr. Ankit Mehta,ENT Specialist,Fungal infection,ankit.mehta@example.com
+Dr. Rahul Menon,Pulmonologist,Thyroid disorders,rahul.menon@example.com
+Dr. Sujay Khan,Endocrinologist,Typhoid,sujay.khan@example.com
+Dr. Kiran Kulkarni,ENT Specialist,Sinusitis,kiran.kulkarni@example.com
+Dr. Raj Bhat,Cardiologist,Migraine,raj.bhat@example.com
+Dr. Varun Bhat,Cardiologist,Urinary tract infection,varun.bhat@example.com
+Dr. Sagar Rao,Psychiatrist,Sinusitis,sagar.rao@example.com
+Dr. Divya Bose,Psychiatrist,Cancer,divya.bose@example.com
+Dr. Sameer Bhatt,Pulmonologist,Anxiety,sameer.bhatt@example.com
+Dr. Sameer Das,Urologist,Asthma,sameer.das@example.com
+Dr. Ravi Tyagi,Gastroenterologist,Migraine,ravi.tyagi@example.com
+Dr. Mahesh Rao,ENT Specialist,Chickenpox,mahesh.rao@example.com
+Dr. Pooja Shah,General Physician,PCOS,pooja.shah@example.com
+Dr. Sameer Kapoor,General Physician,Cancer,sameer.kapoor@example.com
+Dr. Sujay Kumar,Urologist,PCOS,sujay.kumar@example.com
+Dr. Amit Iyer,Pediatrician,Hypertension,amit.iyer@example.com
+Dr. Ishita Singh,Psychiatrist,Epilepsy,ishita.singh@example.com
+Dr. Ritu Shetty,General Physician,Heart attack,ritu.shetty@example.com
+Dr. Raj Reddy,Gastroenterologist,Thyroid disorders,raj.reddy@example.com
+Dr. Ritu Bhatt,Urologist,Coronary artery disease,ritu.bhatt@example.com
+Dr. Kiran Kapoor,Oncologist,Sinusitis,kiran.kapoor@example.com
+Dr. Mahesh Iyer,Psychiatrist,Jaundice,mahesh.iyer@example.com
+Dr. Meera Kumar,Psychiatrist,Coronary artery disease,meera.kumar@example.com
+Dr. Amit Jain,Pulmonologist,Coronary artery disease,amit.jain@example.com
+Dr. Asha Joshi,Neurologist,Coronary artery disease,asha.joshi@example.com
+Dr. Sagar Tyagi,Pulmonologist,Thyroid disorders,sagar.tyagi@example.com
+Dr. Ishita Rao,Dermatologist,Common Cold,ishita.rao@example.com
+Dr. Sujay Rao,ENT Specialist,Asthma,sujay.rao@example.com
+Dr. Priya Iyer,Urologist,GERD,priya.iyer@example.com
+Dr. Neha Kapoor,Neurologist,GERD,neha.kapoor@example.com
+Dr. Ravi Shah,Gastroenterologist,Migraine,ravi.shah@example.com
+Dr. Komal Mehta,Endocrinologist,Migraine,komal.mehta@example.com
+Dr. Mahesh Reddy,Gastroenterologist,Psoriasis,mahesh.reddy@example.com
+Dr. Divya Singh,Gastroenterologist,Asthma,divya.singh@example.com
+Dr. Divya Verma,Oncologist,Chickenpox,divya.verma@example.com
+Dr. Priya Das,Endocrinologist,Common Cold,priya.das@example.com
+Dr. Neha Verma,Endocrinologist,Typhoid,neha.verma@example.com
+Dr. Sneha Das,Pulmonologist,PCOS,sneha.das@example.com
+Dr. Raj Reddy,Dermatologist,Heart attack,raj.reddy@example.com
+Dr. Ritu Joshi,Pediatrician,GERD,ritu.joshi@example.com
+Dr. Rahul Verma,Gastroenterologist,Hepatitis B,rahul.verma@example.com
+Dr. Mahesh Bhat,ENT Specialist,GERD,mahesh.bhat@example.com
+Dr. Arjun Das,Psychiatrist,Chickenpox,arjun.das@example.com
+Dr. Amit Tyagi,Urologist,Fungal infection,amit.tyagi@example.com
+Dr. Arjun Jain,Gastroenterologist,Sinusitis,arjun.jain@example.com
+Dr. Divya Naik,Pulmonologist,Typhoid,divya.naik@example.com
+Dr. Komal Rao,Neurologist,Anxiety,komal.rao@example.com
+Dr. Varun Jain,Orthopedic,Chickenpox,varun.jain@example.com
+Dr. Komal Reddy,Endocrinologist,Psoriasis,komal.reddy@example.com
+Dr. Sagar Kumar,Neurologist,Urinary tract infection,sagar.kumar@example.com
+Dr. Ankit Rao,Neurologist,Arthritis,ankit.rao@example.com
+Dr. Sujay Mehta,Endocrinologist,Arthritis,sujay.mehta@example.com
+Dr. Sujay Rao,Gastroenterologist,Sinusitis,sujay.rao@example.com
+Dr. Ravi Das,Cardiologist,Thyroid disorders,ravi.das@example.com
+Dr. Amit Bhat,Endocrinologist,Cancer,amit.bhat@example.com
+Dr. Ishita Rao,ENT Specialist,Anxiety,ishita.rao@example.com
+Dr. Ankit Shetty,Endocrinologist,Hepatitis B,ankit.shetty@example.com
+Dr. Neha Patel,Psychiatrist,PCOS,neha.patel@example.com
+Dr. Ritu Jain,Psychiatrist,Thyroid disorders,ritu.jain@example.com
+Dr. Ankit Rao,Gastroenterologist,Fungal infection,ankit.rao@example.com
+Dr. Raj Bhatt,Neurologist,Epilepsy,raj.bhatt@example.com
+Dr. Nisha Jain,Psychiatrist,Sinusitis,nisha.jain@example.com
+Dr. Sameer Shetty,Endocrinologist,Deafness,sameer.shetty@example.com
+Dr. Neha Naik,Gynecologist,PCOS,neha.naik@example.com
+Dr. Pooja Rao,Urologist,Fungal infection,pooja.rao@example.com
+Dr. Mahesh Joshi,Dermatologist,Diabetes,mahesh.joshi@example.com
+Dr. Ankit Rao,Gastroenterologist,Hypertension,ankit.rao@example.com
+Dr. Neha Rao,Pulmonologist,Epilepsy,neha.rao@example.com
+Dr. Raj Kumar,Oncologist,GERD,raj.kumar@example.com
+Dr. Kiran Bhatt,Endocrinologist,Common Cold,kiran.bhatt@example.com
+Dr. Priya Reddy,Cardiologist,Hypertension,priya.reddy@example.com
+Dr. Komal Rao,Dermatologist,Hypertension,komal.rao@example.com
+Dr. Varun Bhatt,Urologist,Jaundice,varun.bhatt@example.com
+Dr. Kiran Naik,Oncologist,Cancer,kiran.naik@example.com
+Dr. Komal Bhatt,Oncologist,Cancer,komal.bhatt@example.com
+Dr. Ritu Kapoor,ENT Specialist,Asthma,ritu.kapoor@example.com
+Dr. Nisha Kumar,ENT Specialist,Typhoid,nisha.kumar@example.com
+Dr. Nisha Shetty,Gastroenterologist,Typhoid,nisha.shetty@example.com
+Dr. Ishita Jain,Oncologist,PCOS,ishita.jain@example.com
+Dr. Arjun Kulkarni,General Physician,Urinary tract infection,arjun.kulkarni@example.com
+Dr. Ishita Patel,Endocrinologist,Epilepsy,ishita.patel@example.com
+Dr. Sneha Menon,ENT Specialist,Urinary tract infection,sneha.menon@example.com
+Dr. Rahul Khan,General Physician,Psoriasis,rahul.khan@example.com
+Dr. Amit Iyer,Urologist,Epilepsy,amit.iyer@example.com
+Dr. Ravi Shah,Psychiatrist,GERD,ravi.shah@example.com
+Dr. Neha Khan,Cardiologist,Coronary artery disease,neha.khan@example.com
+Dr. Mahesh Menon,Dermatologist,Migraine,mahesh.menon@example.com
+Dr. Arjun Khan,Endocrinologist,Sinusitis,arjun.khan@example.com
+Dr. Meera Das,Pediatrician,Arthritis,meera.das@example.com
+Dr. Sameer Kumar,Dermatologist,PCOS,sameer.kumar@example.com
+Dr. Raj Rao,Gastroenterologist,Arthritis,raj.rao@example.com
+Dr. Mahesh Khan,Psychiatrist,Thyroid disorders,mahesh.khan@example.com
+Dr. Meera Rao,Pediatrician,Anxiety,meera.rao@example.com
+Dr. Pooja Joshi,Neurologist,Urinary tract infection,pooja.joshi@example.com
+Dr. Ankit Verma,Gynecologist,Hepatitis B,ankit.verma@example.com
+Dr. Pooja Naik,Dermatologist,Anxiety,pooja.naik@example.com
+Dr. Sujay Mehta,Urologist,Coronary artery disease,sujay.mehta@example.com
+Dr. Ankit Singh,Orthopedic,Coronary artery disease,ankit.singh@example.com
+Dr. Mahesh Kapoor,Neurologist,Heart attack,mahesh.kapoor@example.com
+Dr. Ritu Jain,Urologist,Urinary tract infection,ritu.jain@example.com
+Dr. Ankit Kumar,General Physician,Common Cold,ankit.kumar@example.com
+Dr. Asha Reddy,Urologist,Asthma,asha.reddy@example.com
+Dr. Divya Naik,Pediatrician,Asthma,divya.naik@example.com
+Dr. Ankit Kulkarni,Urologist,Deafness,ankit.kulkarni@example.com
+Dr. Sneha Kapoor,Dermatologist,Urinary tract infection,sneha.kapoor@example.com
+Dr. Sameer Kapoor,Orthopedic,Psoriasis,sameer.kapoor@example.com
+Dr. Raj Menon,Orthopedic,Typhoid,raj.menon@example.com
+Dr. Ankit Khan,Urologist,Arthritis,ankit.khan@example.com
+Dr. Asha Khan,Orthopedic,Heart attack,asha.khan@example.com
+Dr. Sujay Bhat,Psychiatrist,Urinary tract infection,sujay.bhat@example.com
+Dr. Komal Tyagi,Endocrinologist,PCOS,komal.tyagi@example.com
+Dr. Ishita Bhatt,Gynecologist,Hypertension,ishita.bhatt@example.com
+Dr. Neha Reddy,General Physician,Hypertension,neha.reddy@example.com
+Dr. Sneha Bhat,Urologist,Deafness,sneha.bhat@example.com
+Dr. Raj Joshi,Pulmonologist,Typhoid,raj.joshi@example.com
+Dr. Ankit Bhatt,Gynecologist,Typhoid,ankit.bhatt@example.com
+Dr. Ankit Iyer,Pediatrician,Sinusitis,ankit.iyer@example.com
+Dr. Sujay Singh,Psychiatrist,Deafness,sujay.singh@example.com
+Dr. Arjun Bhat,Pediatrician,Coronary artery disease,arjun.bhat@example.com
+Dr. Ishita Singh,Gastroenterologist,Fungal infection,ishita.singh@example.com
+Dr. Rahul Rao,Oncologist,Psoriasis,rahul.rao@example.com
+Dr. Nisha Iyer,Pediatrician,Sinusitis,nisha.iyer@example.com
+Dr. Kiran Tyagi,Gynecologist,Sinusitis,kiran.tyagi@example.com
+Dr. Priya Shetty,Oncologist,Typhoid,priya.shetty@example.com
+Dr. Ritu Kumar,Orthopedic,PCOS,ritu.kumar@example.com
+Dr. Arjun Shah,Endocrinologist,Migraine,arjun.shah@example.com
+Dr. Sameer Bhatt,Gastroenterologist,Arthritis,sameer.bhatt@example.com
+Dr. Priya Naik,Cardiologist,Coronary artery disease,priya.naik@example.com
+Dr. Raj Singh,Oncologist,Coronary artery disease,raj.singh@example.com
+Dr. Sneha Shah,ENT Specialist,GERD,sneha.shah@example.com
+Dr. Priya Shetty,Oncologist,Migraine,priya.shetty@example.com
+Dr. Kiran Khan,General Physician,Epilepsy,kiran.khan@example.com
+Dr. Varun Rao,Orthopedic,Hypertension,varun.rao@example.com
+Dr. Nisha Khan,Neurologist,GERD,nisha.khan@example.com
+Dr. Kiran Bhatt,Endocrinologist,Asthma,kiran.bhatt@example.com
+Dr. Varun Rao,Pulmonologist,Chickenpox,varun.rao@example.com
+Dr. Varun Joshi,Gynecologist,Psoriasis,varun.joshi@example.com
+Dr. Varun Singh,Psychiatrist,Anxiety,varun.singh@example.com
+Dr. Ishita Singh,Neurologist,Heart attack,ishita.singh@example.com
+Dr. Priya Mehta,Endocrinologist,Common Cold,priya.mehta@example.com
+Dr. Ritu Menon,Endocrinologist,Heart attack,ritu.menon@example.com
+Dr. Rahul Naik,Orthopedic,Sinusitis,rahul.naik@example.com
+Dr. Sameer Kulkarni,Endocrinologist,PCOS,sameer.kulkarni@example.com
+Dr. Ishita Rao,Orthopedic,Hepatitis B,ishita.rao@example.com
+Dr. Amit Das,Dermatologist,Epilepsy,amit.das@example.com
+Dr. Sujay Reddy,Neurologist,Arthritis,sujay.reddy@example.com
+Dr. Sameer Rao,Psychiatrist,Cancer,sameer.rao@example.com
+Dr. Sameer Iyer,Neurologist,Asthma,sameer.iyer@example.com
+Dr. Ravi Menon,ENT Specialist,Fungal infection,ravi.menon@example.com
+Dr. Ritu Reddy,Dermatologist,Asthma,ritu.reddy@example.com
+Dr. Varun Bhat,Neurologist,Migraine,varun.bhat@example.com
+Dr. Kiran Joshi,Pulmonologist,Asthma,kiran.joshi@example.com
+Dr. Sagar Bhatt,Cardiologist,GERD,sagar.bhatt@example.com
+Dr. Kiran Singh,Endocrinologist,Common Cold,kiran.singh@example.com
+Dr. Sagar Shah,Urologist,Thyroid disorders,sagar.shah@example.com
+Dr. Ritu Das,General Physician,Epilepsy,ritu.das@example.com
+Dr. Meera Das,ENT Specialist,Migraine,meera.das@example.com
+Dr. Nisha Singh,Oncologist,Typhoid,nisha.singh@example.com
+Dr. Sneha Bhatt,Cardiologist,Epilepsy,sneha.bhatt@example.com
+Dr. Ankit Jain,Gastroenterologist,Deafness,ankit.jain@example.com
+Dr. Nisha Reddy,Pulmonologist,Hypertension,nisha.reddy@example.com
+Dr. Neha Bhat,Endocrinologist,Anxiety,neha.bhat@example.com
+Dr. Pooja Shetty,Cardiologist,Jaundice,pooja.shetty@example.com
+Dr. Sameer Naik,Urologist,Psoriasis,sameer.naik@example.com
+Dr. Pooja Verma,Gastroenterologist,Typhoid,pooja.verma@example.com
+Dr. Kiran Das,Neurologist,Fungal infection,kiran.das@example.com
+Dr. Ankit Bhat,Pulmonologist,Asthma,ankit.bhat@example.com
+Dr. Neha Kapoor,ENT Specialist,Deafness,neha.kapoor@example.com
+Dr. Sujay Reddy,Gastroenterologist,GERD,sujay.reddy@example.com
+Dr. Ankit Kumar,Gastroenterologist,Epilepsy,ankit.kumar@example.com
+Dr. Nisha Patel,ENT Specialist,Fungal infection,nisha.patel@example.com
+Dr. Ravi Singh,Oncologist,Migraine,ravi.singh@example.com
+Dr. Nisha Shah,Urologist,Deafness,nisha.shah@example.com
+Dr. Divya Verma,Psychiatrist,Arthritis,divya.verma@example.com
+Dr. Sneha Joshi,Urologist,Epilepsy,sneha.joshi@example.com
+Dr. Ishita Menon,Gynecologist,Thyroid disorders,ishita.menon@example.com
+Dr. Varun Iyer,Orthopedic,Asthma,varun.iyer@example.com
+Dr. Sneha Tyagi,Urologist,Jaundice,sneha.tyagi@example.com
+Dr. Sneha Tyagi,ENT Specialist,Deafness,sneha.tyagi@example.com
+Dr. Ravi Rao,Endocrinologist,Jaundice,ravi.rao@example.com
+Dr. Ishita Rao,ENT Specialist,Anxiety,ishita.rao@example.com
+Dr. Meera Menon,Endocrinologist,Typhoid,meera.menon@example.com
+Dr. Sameer Bhatt,Endocrinologist,Diabetes,sameer.bhatt@example.com
+Dr. Ankit Bhatt,ENT Specialist,Arthritis,ankit.bhatt@example.com
+Dr. Pooja Kumar,Psychiatrist,PCOS,pooja.kumar@example.com
+Dr. Priya Rao,Oncologist,PCOS,priya.rao@example.com
+Dr. Nisha Kumar,Pulmonologist,Typhoid,nisha.kumar@example.com
+Dr. Meera Rao,Pediatrician,Diabetes,meera.rao@example.com
+Dr. Varun Shah,Gastroenterologist,Epilepsy,varun.shah@example.com
+Dr. Mahesh Kapoor,Orthopedic,Migraine,mahesh.kapoor@example.com
+Dr. Mahesh Mehta,Orthopedic,Chickenpox,mahesh.mehta@example.com
+Dr. Mahesh Tyagi,Orthopedic,Heart attack,mahesh.tyagi@example.com
+Dr. Kiran Shetty,Gynecologist,Fungal infection,kiran.shetty@example.com
+Dr. Ravi Mehta,Oncologist,Coronary artery disease,ravi.mehta@example.com
+Dr. Pooja Naik,Endocrinologist,Common Cold,pooja.naik@example.com
+Dr. Ankit Menon,Neurologist,Urinary tract infection,ankit.menon@example.com
+Dr. Sagar Verma,Gastroenterologist,GERD,sagar.verma@example.com
+Dr. Kiran Bhatt,Oncologist,Diabetes,kiran.bhatt@example.com
+Dr. Varun Rao,Dermatologist,Urinary tract infection,varun.rao@example.com
+Dr. Kiran Naik,Neurologist,Arthritis,kiran.naik@example.com
+Dr. Neha Shetty,General Physician,Heart attack,neha.shetty@example.com
+Dr. Amit Kapoor,Urologist,Fungal infection,amit.kapoor@example.com
+Dr. Ankit Kulkarni,Urologist,Hypertension,ankit.kulkarni@example.com
+Dr. Ishita Naik,Pulmonologist,Typhoid,ishita.naik@example.com
+Dr. Priya Joshi,Oncologist,Jaundice,priya.joshi@example.com
+Dr. Meera Naik,Oncologist,Sinusitis,meera.naik@example.com
+Dr. Ravi Bhat,Gynecologist,Sinusitis,ravi.bhat@example.com
+Dr. Rahul Singh,Psychiatrist,Sinusitis,rahul.singh@example.com
+Dr. Neha Tyagi,Urologist,Migraine,neha.tyagi@example.com
+Dr. Ravi Tyagi,Dermatologist,Cancer,ravi.tyagi@example.com
+Dr. Meera Singh,Pediatrician,GERD,meera.singh@example.com
+Dr. Nisha Kapoor,Pulmonologist,Hypertension,nisha.kapoor@example.com
+Dr. Komal Singh,Dermatologist,Migraine,komal.singh@example.com
+Dr. Pooja Bhatt,ENT Specialist,Heart attack,pooja.bhatt@example.com
+Dr. Arjun Bhatt,Psychiatrist,Sinusitis,arjun.bhatt@example.com
+Dr. Asha Mehta,Psychiatrist,Migraine,asha.mehta@example.com
+Dr. Sneha Kumar,Gastroenterologist,Common Cold,sneha.kumar@example.com
+Dr. Neha Shah,Pediatrician,Cancer,neha.shah@example.com
+Dr. Priya Iyer,Oncologist,Cancer,priya.iyer@example.com
+Dr. Asha Mehta,Cardiologist,Jaundice,asha.mehta@example.com
+Dr. Amit Jain,ENT Specialist,Chickenpox,amit.jain@example.com
+Dr. Ravi Patel,Oncologist,Thyroid disorders,ravi.patel@example.com
+Dr. Ravi Tyagi,Cardiologist,Arthritis,ravi.tyagi@example.com
+Dr. Raj Kapoor,Orthopedic,Anxiety,raj.kapoor@example.com
+Dr. Amit Shetty,Orthopedic,Coronary artery disease,amit.shetty@example.com
+Dr. Ishita Shah,Pulmonologist,GERD,ishita.shah@example.com
+Dr. Sneha Khan,Orthopedic,Psoriasis,sneha.khan@example.com
+Dr. Asha Naik,General Physician,Sinusitis,asha.naik@example.com
+Dr. Rahul Patel,Neurologist,Common Cold,rahul.patel@example.com
+Dr. Asha Iyer,Endocrinologist,Sinusitis,asha.iyer@example.com
+Dr. Sagar Verma,Dermatologist,Sinusitis,sagar.verma@example.com
+Dr. Neha Jain,Orthopedic,PCOS,neha.jain@example.com
+Dr. Asha Bose,Gastroenterologist,Urinary tract infection,asha.bose@example.com
+Dr. Rahul Shah,General Physician,PCOS,rahul.shah@example.com
+Dr. Sneha Singh,Psychiatrist,Urinary tract infection,sneha.singh@example.com
+Dr. Sagar Joshi,Endocrinologist,Epilepsy,sagar.joshi@example.com
+Dr. Asha Das,Endocrinologist,Epilepsy,asha.das@example.com
+Dr. Varun Reddy,Dermatologist,Psoriasis,varun.reddy@example.com
+Dr. Ankit Mehta,Neurologist,Cancer,ankit.mehta@example.com
+Dr. Sagar Reddy,Pediatrician,Psoriasis,sagar.reddy@example.com
+Dr. Meera Verma,Oncologist,Cancer,meera.verma@example.com
+Dr. Divya Jain,Cardiologist,Common Cold,divya.jain@example.com
+Dr. Raj Kapoor,Endocrinologist,GERD,raj.kapoor@example.com
+Dr. Amit Jain,Pediatrician,Sinusitis,amit.jain@example.com
+Dr. Divya Kulkarni,Cardiologist,Deafness,divya.kulkarni@example.com
+Dr. Asha Joshi,Cardiologist,Anxiety,asha.joshi@example.com
+Dr. Ishita Rao,Oncologist,Hypertension,ishita.rao@example.com
+Dr. Ravi Mehta,Endocrinologist,Typhoid,ravi.mehta@example.com
+Dr. Amit Reddy,Gastroenterologist,Hypertension,amit.reddy@example.com
+Dr. Divya Kumar,ENT Specialist,Thyroid disorders,divya.kumar@example.com
+Dr. Amit Bose,Endocrinologist,Arthritis,amit.bose@example.com
+Dr. Sameer Tyagi,Psychiatrist,Psoriasis,sameer.tyagi@example.com
+Dr. Sujay Joshi,Urologist,Jaundice,sujay.joshi@example.com
+Dr. Neha Jain,Endocrinologist,Hepatitis B,neha.jain@example.com
+Dr. Kiran Menon,Neurologist,Anxiety,kiran.menon@example.com
+Dr. Meera Rao,Urologist,Sinusitis,meera.rao@example.com
+Dr. Neha Shah,Psychiatrist,Deafness,neha.shah@example.com
+Dr. Pooja Kulkarni,Endocrinologist,Migraine,pooja.kulkarni@example.com
+Dr. Meera Shetty,Neurologist,Asthma,meera.shetty@example.com
+Dr. Asha Rao,Pediatrician,Epilepsy,asha.rao@example.com
+Dr. Kiran Verma,ENT Specialist,Epilepsy,kiran.verma@example.com
+Dr. Priya Naik,Neurologist,Thyroid disorders,priya.naik@example.com
+Dr. Mahesh Menon,Gynecologist,PCOS,mahesh.menon@example.com
+Dr. Rahul Das,Pediatrician,Psoriasis,rahul.das@example.com
+Dr. Sagar Kapoor,Urologist,Deafness,sagar.kapoor@example.com
+Dr. Ishita Kapoor,Pulmonologist,Hepatitis B,ishita.kapoor@example.com
+Dr. Rahul Naik,Endocrinologist,Asthma,rahul.naik@example.com
+Dr. Asha Bose,Dermatologist,Hepatitis B,asha.bose@example.com
+Dr. Nisha Khan,Dermatologist,Asthma,nisha.khan@example.com
+Dr. Meera Naik,Neurologist,Diabetes,meera.naik@example.com
+Dr. Ravi Kumar,Oncologist,Typhoid,ravi.kumar@example.com
+Dr. Divya Das,Pediatrician,Fungal infection,divya.das@example.com
+Dr. Sujay Bhat,Pediatrician,PCOS,sujay.bhat@example.com
+Dr. Kiran Das,Cardiologist,Typhoid,kiran.das@example.com

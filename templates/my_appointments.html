@@ -1,0 +1,19 @@
+<h2 class="mb-4">My Appointments</h2>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Disease</th>
+      <th>Doctor Name</th>
+      <th>Booked At</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for disease, doctor, date in appointments %}
+    <tr>
+      <td>{{ disease }}</td>
+      <td>{{ doctor }}</td>
+      <td>{{ date }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

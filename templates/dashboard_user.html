@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>P-HMR | User Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: url("https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61804.jpg") no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #0d6efd, #6610f2);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.6rem;
+      letter-spacing: 1px;
+    }
+
+    .nav-link {
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+      transform: scale(1.05);
+    }
+
+    .myimg {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .btn-success {
+      font-size: 1.2rem;
+      padding: 12px 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .btn-success:hover {
+      background: #198754;
+      transform: scale(1.05);
+    }
+
+    /* Chatbot Styles */
+    .chatbot-btn {
+      z-index: 999;
+      font-size: 1.8rem;
+      background: linear-gradient(135deg, #0dcaf0, #0d6efd);
+      color: #fff;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .chatbot-btn:hover {
+      transform: scale(1.1);
+    }
+
+    #chatbot {
+      width: 320px;
+      display: none;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    #chat-log {
+      height: 280px;
+      overflow-y: auto;
+      font-size: 0.9rem;
+    }
+
+    .card-header {
+      background: linear-gradient(90deg, #0d6efd, #6610f2);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 🌐 Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <img class="myimg me-2" src="{{ url_for('static', filename='img.png') }}" alt="">
+    <a class="navbar-brand" href="#">🩺 P-HMR </a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link active" href="/">🏠 Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">📚 About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">📞 Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/developer">👨‍💻 Developer</a></li>
+        <li class="nav-item"><a class="nav-link" href="/blog">📝 Blog</a></li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
+            👤 {{ session['user'] }}
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="/edit_profile">📝 Edit Profile</a></li>
+            <li><a class="dropdown-item" href="/my_predictions">📊 My Predictions</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-danger" href="/logout">🚪 Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- FLASH MESSAGES -->
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <div class="alert alert-success alert-dismissible fade show mt-3 mx-3 shadow" role="alert">
+      {{ messages[0] }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  {% endif %}
+{% endwith %}
+
+<!-- DASHBOARD CARD -->
+<div class="container mt-5">
+  <div class="card p-4 text-center">
+    <h2 class="text-primary mb-3">👋 Welcome, {{ session['user'] }}</h2>
+    <p class="text-muted">Access personalized health predictions and recommendations below.</p>
+    <a href="/prediction" class="btn btn-success btn-lg"><i class="fas fa-stethoscope"></i> Start Prediction</a>
+  </div>
+</div>
+
+<!-- Chatbot Toggle Button -->
+<button class="btn chatbot-btn position-fixed bottom-0 end-0 m-4 rounded-circle p-3"
+        onclick="toggleChatbot()" title="Chat with Medical Bot">
+    💬
+</button>
+
+<!-- Chatbot Card -->
+<div id="chatbot" class="card shadow-lg position-fixed bottom-0 end-0 m-5">
+  <div class="card-header text-white d-flex justify-content-between align-items-center">
+    🤖 Medical Chatbot
+    <button type="button" class="btn-close btn-close-white" onclick="toggleChatbot()" aria-label="Close"></button>
+  </div>
+  <div class="card-body" id="chat-log">
+    <div><strong>Bot:</strong> Hi! Ask me about symptoms, diet, or health advice.</div>
+  </div>
+  <div class="card-footer">
+    <input type="text" id="user-input" class="form-control" placeholder="Type a message..."
+           onkeydown="if(event.key==='Enter') sendMessage()">
+  </div>
+</div>
+
+<!-- JS Links -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+function toggleChatbot() {
+  const bot = document.getElementById("chatbot");
+  bot.style.display = bot.style.display === "none" ? "block" : "none";
+}
+
+function sendMessage() {
+  const input = document.getElementById("user-input");
+  const message = input.value.trim();
+  if (!message) return;
+
+  const chatLog = document.getElementById("chat-log");
+  chatLog.innerHTML += `<div><strong>You:</strong> ${message}</div>`;
+
+  fetch("/chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message })
+  })
+  .then(res => res.json())
+  .then(data => {
+    chatLog.innerHTML += `<div><strong>Bot:</strong> ${data.reply}</div>`;
+    chatLog.scrollTop = chatLog.scrollHeight;
+  });
+
+  input.value = "";
+}
+</script>
+</body>
+</html>
