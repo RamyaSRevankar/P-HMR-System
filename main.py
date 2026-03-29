@@ -5,7 +5,11 @@ import pandas as pd
 import pickle
 from datetime import datetime
 import random
+from rapidfuzz import process
+import openai
 import os
+
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 
 
@@ -224,49 +228,45 @@ def predict():
 
         symptoms = request.form.get('symptoms')
 
-        if not symptoms or symptoms == "Symptoms":
-            return render_template('prediction.html', message="Please enter valid symptoms")
+        if not symptoms:
+            return render_template('prediction.html', message="Please enter symptoms")
 
         try:
-            # Convert input into list
+            # 🔹 Raw input (natural language)
             raw_input = [s.strip().lower() for s in symptoms.split(',')]
 
             symptom_list = list(symptoms_dict.keys())
 
+            # 🔹 Smart match
             user_symptoms = match_symptoms(raw_input, symptom_list)
 
             if not user_symptoms:
                 return render_template('prediction.html', message="No valid symptoms detected")
-            user_symptoms = [symptom.strip("[]' ") for symptom in user_symptoms]
 
-            # 🔹 Prediction (SAFE)
+            # 🔹 Prediction
             result = get_predicted_value(user_symptoms)
 
             if result is None:
-                return render_template('prediction.html', message="Invalid symptoms entered")
+                return render_template('prediction.html', message="Prediction failed")
 
             predicted_disease, stage, confidence, progression = result
 
-            # 🔹 Helper (SAFE)
+            # 🔹 Helper safe
             try:
                 dis_des, precautions, medications, rec_diet, workout = helper(predicted_disease)
-            except Exception as e:
-                print("Helper Error:", e)
+            except:
                 dis_des, precautions, medications, rec_diet, workout = "", [], [], [], []
 
-            # 🔹 Precautions safe handling
+            # 🔹 Precautions safe
             my_precautions = []
-            if precautions and len(precautions) > 0:
+            if precautions:
                 for i in precautions[0]:
                     my_precautions.append(i)
 
-            # 🔹 Date
+            # 🔹 Save to DB
             current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-            # 🔹 User ID safe
             user_id = session.get('user_id', None)
 
-            # 🔹 DB Insert (SAFE)
             try:
                 conn = sqlite3.connect('database.db')
                 cursor = conn.cursor()
@@ -279,11 +279,9 @@ def predict():
 
                 conn.commit()
                 conn.close()
+            except Exception as e:
+                print("DB Error:", e)
 
-            except Exception as db_error:
-                print("DB Error:", db_error)
-
-            # 🔹 Return result
             return render_template(
                 'prediction.html',
                 predicted_disease=predicted_disease,
@@ -298,21 +296,17 @@ def predict():
             )
 
         except Exception as e:
-            print("Prediction Error:", e)
-            return render_template('prediction.html', message=f"Error occurred: {str(e)}")
+            return render_template('prediction.html', message=f"Error: {str(e)}")
 
     return render_template('prediction.html')
-
-
-from rapidfuzz import process
 
 
 def match_symptoms(user_input, symptom_list):
     matched = []
 
-    for word in user_input:
-        best_match = process.extractOne(word, symptom_list)
-        if best_match and best_match[1] > 70:  # similarity %
+    for phrase in user_input:
+        best_match = process.extractOne(phrase, symptom_list)
+        if best_match and best_match[1] > 60:
             matched.append(best_match[0])
 
     return list(set(matched))
@@ -349,14 +343,21 @@ def blog():
 #chat view function
 @app.route("/chat", methods=["POST"])
 def chatbot():
-    user_msg = request.json.get("message", "").lower()
-    # Simple rule-based replies
-    if "fever" in user_msg:
-        reply = "For fever, rest, hydration, and paracetamol are usually recommended."
-    elif "headache" in user_msg:
-        reply = "Try resting in a quiet room and drink water."
-    else:
-        reply = "I'm a simple medical bot. Please ask about symptoms or health tips."
+    user_msg = request.json.get("message")
+
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "You are a helpful medical assistant. Give safe and simple advice."},
+                {"role": "user", "content": user_msg}
+            ]
+        )
+
+        reply = response['choices'][0]['message']['content']
+
+    except Exception as e:
+        reply = "Sorry, chatbot is not available now."
 
     # Get user ID if logged in
     user_id = session.get('user_id', None)
