@@ -223,37 +223,78 @@ def predict():
     if request.method == 'POST':
 
         symptoms = request.form.get('symptoms')
-        print(symptoms)
-        if symptoms =="Symptoms":
 
-            message = "Please either write symptoms or you have written misspelled symptoms"
-            return render_template('prediction.html', message=message)
-        else:
+        if not symptoms or symptoms == "Symptoms":
+            return render_template('prediction.html', message="Please enter valid symptoms")
 
-            # Split the user's input into a list of symptoms (assuming they are comma-separated)
+        try:
+            # Convert input into list
             user_symptoms = [s.strip() for s in symptoms.split(',')]
-            # Remove any extra characters, if any
             user_symptoms = [symptom.strip("[]' ") for symptom in user_symptoms]
-            predicted_disease,stage,confidence,progression = get_predicted_value(user_symptoms)
-            dis_des, precautions, medications, rec_diet, workout = helper(predicted_disease)
 
+            # 🔹 Prediction (SAFE)
+            result = get_predicted_value(user_symptoms)
+
+            if result is None:
+                return render_template('prediction.html', message="Invalid symptoms entered")
+
+            predicted_disease, stage, confidence, progression = result
+
+            # 🔹 Helper (SAFE)
+            try:
+                dis_des, precautions, medications, rec_diet, workout = helper(predicted_disease)
+            except Exception as e:
+                print("Helper Error:", e)
+                dis_des, precautions, medications, rec_diet, workout = "", [], [], [], []
+
+            # 🔹 Precautions safe handling
             my_precautions = []
-            for i in precautions[0]:
-                my_precautions.append(i)
+            if precautions and len(precautions) > 0:
+                for i in precautions[0]:
+                    my_precautions.append(i)
 
+            # 🔹 Date
             current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-            user_id=session.get('user_id')
-            conn = sqlite3.connect('database.db')
-            cursor = conn.cursor()
-            cursor.execute('''INSERT INTO predictions (user_id,symptoms,predicted_disease,stage,date) VALUES(?,?,?,?,?)''',(user_id,symptoms,predicted_disease,stage, current_date))
-            conn.commit()
-            conn.close()
-            return render_template('prediction.html', predicted_disease=predicted_disease,stage=stage,confidence=confidence, dis_des=dis_des,
-                                   progression=progression,my_precautions=my_precautions, medications=medications, my_diet=rec_diet,
-                                   workout=workout)
-    return render_template('prediction.html')
+            # 🔹 User ID safe
+            user_id = session.get('user_id', None)
 
+            # 🔹 DB Insert (SAFE)
+            try:
+                conn = sqlite3.connect('database.db')
+                cursor = conn.cursor()
+
+                cursor.execute('''
+                    INSERT INTO predictions 
+                    (user_id, symptoms, predicted_disease, stage, date) 
+                    VALUES (?, ?, ?, ?, ?)
+                ''', (user_id, symptoms, predicted_disease, stage, current_date))
+
+                conn.commit()
+                conn.close()
+
+            except Exception as db_error:
+                print("DB Error:", db_error)
+
+            # 🔹 Return result
+            return render_template(
+                'prediction.html',
+                predicted_disease=predicted_disease,
+                stage=stage,
+                confidence=confidence,
+                dis_des=dis_des,
+                progression=progression,
+                my_precautions=my_precautions,
+                medications=medications,
+                my_diet=rec_diet,
+                workout=workout
+            )
+
+        except Exception as e:
+            print("Prediction Error:", e)
+            return render_template('prediction.html', message=f"Error occurred: {str(e)}")
+
+    return render_template('prediction.html')
 
 
 # about view funtion
