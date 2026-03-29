@@ -229,7 +229,14 @@ def predict():
 
         try:
             # Convert input into list
-            user_symptoms = [s.strip() for s in symptoms.split(',')]
+            raw_input = [s.strip().lower() for s in symptoms.split(',')]
+
+            symptom_list = list(symptoms_dict.keys())
+
+            user_symptoms = match_symptoms(raw_input, symptom_list)
+
+            if not user_symptoms:
+                return render_template('prediction.html', message="No valid symptoms detected")
             user_symptoms = [symptom.strip("[]' ") for symptom in user_symptoms]
 
             # 🔹 Prediction (SAFE)
@@ -295,6 +302,20 @@ def predict():
             return render_template('prediction.html', message=f"Error occurred: {str(e)}")
 
     return render_template('prediction.html')
+
+
+from rapidfuzz import process
+
+
+def match_symptoms(user_input, symptom_list):
+    matched = []
+
+    for word in user_input:
+        best_match = process.extractOne(word, symptom_list)
+        if best_match and best_match[1] > 70:  # similarity %
+            matched.append(best_match[0])
+
+    return list(set(matched))
 
 
 # about view funtion
