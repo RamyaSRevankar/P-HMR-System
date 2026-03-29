@@ -20,18 +20,20 @@ DB_NAME = 'database.db'
 #create database function and create table
 def init_db():
     conn = sqlite3.connect(DB_NAME)
-
-
     cursor = conn.cursor()
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS users (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            username TEXT UNIQUE,
-            email TEXT UNIQUE,
-            password TEXT
-        )''')
+    # USERS TABLE
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS users (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        username TEXT UNIQUE,
+        email TEXT UNIQUE,
+        password TEXT
+    )
+    """)
 
-    cursor.execute('''
+    # DOCTORS LOGIN
+    cursor.execute("""
     CREATE TABLE IF NOT EXISTS doctors_login (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         username TEXT UNIQUE NOT NULL,
@@ -39,30 +41,31 @@ def init_db():
         doctor_name TEXT NOT NULL,
         specialization TEXT
     )
-    ''')
+    """)
 
+    # CHAT
     cursor.execute("""
-            CREATE TABLE IF NOT EXISTS chat_messages (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                sender TEXT NOT NULL,
-                receiver TEXT NOT NULL,
-                message TEXT NOT NULL,
-                timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
-            )
-        """)
+    CREATE TABLE IF NOT EXISTS chat_messages (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        sender TEXT,
+        receiver TEXT,
+        message TEXT,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+    )
+    """)
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS doctors (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT NOT NULL,
-    specialization TEXT NOT NULL,
-    disease TEXT NOT NULL,
-    email TEXT
-)''')
+    # DOCTORS
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS doctors (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        specialization TEXT,
+        disease TEXT,
+        email TEXT
+    )
+    """)
 
-
-
-
-
+    # APPOINTMENTS
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS doctor_appointments (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -74,13 +77,22 @@ def init_db():
     )
     """)
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS admin (
+    # ADMIN
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS admin (
         id INTEGER PRIMARY KEY,
         username TEXT UNIQUE,
         password TEXT
-    )''')
+    )
+    """)
 
-    cursor.execute('''
+    # INSERT DEFAULT ADMIN
+    cursor.execute("SELECT * FROM admin WHERE id=1")
+    if cursor.fetchone() is None:
+        cursor.execute("INSERT INTO admin (id, username, password) VALUES (1, 'admin', 'admin123')")
+
+    # PREDICTIONS
+    cursor.execute("""
     CREATE TABLE IF NOT EXISTS predictions (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         user_id INTEGER,
@@ -88,34 +100,23 @@ def init_db():
         predicted_disease TEXT,
         stage TEXT,
         confidence REAL,
-        date TEXT,
-        FOREIGN KEY (user_id) REFERENCES users(id)
+        date TEXT
     )
-    ''')
+    """)
 
-    cursor.execute('''
+    # CHATBOT LOGS
+    cursor.execute("""
     CREATE TABLE IF NOT EXISTS chatbot_logs (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         user_id INTEGER,
         message TEXT,
         reply TEXT,
-        timestamp TEXT,
-        FOREIGN KEY (user_id) REFERENCES users(id)
+        timestamp TEXT
     )
-    ''')
-
-
-
-    # Insert default admin if not exists
-    cursor.execute("SELECT * FROM admin WHERE id = 1")
-    if cursor.fetchone() is None:
-        cursor.execute("INSERT INTO admin (id, username, password) VALUES (1, 'admin', 'admin123')")
-
-
+    """)
 
     conn.commit()
     conn.close()
-
 
 # Connect to database
 def get_db_connection():
@@ -753,8 +754,10 @@ def forgot_password():
         return redirect(url_for("user_login"))  # redirect back to login
     return render_template("forgot_password.html")
 
-if __name__ == '__main__':
+with app.app_context():
     init_db()
+
+if __name__ == '__main__':
     port = int(os.environ.get("PORT",5000))
     app.run(host="0.0.0.0", port=port)
 
